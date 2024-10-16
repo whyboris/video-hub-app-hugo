@@ -23,21 +23,7 @@
       </span>
     </button>
 
-    <div
-      style="font-size: 20px;
-            padding: 10px;
-            border-radius: 10px;
-            background: white;
-            font-weight: bold;
-            position: absolute;
-            border: 10px solid red;
-            top: 30px;
-            left: 50vw;
-            z-index: 2000">
-      {{ .Lang }}
-    </div>
-
-    <div id="perspective" class="perspective effect-moveleft">
+    <div id="perspective" class="perspective effect-moveleft {{ if eq site.Language.Lang "en" }} en-version {{ end }}">
       <div class="containerNAV">
         <div class="wrapper" id="clickHack">
           <div class="body-contents">

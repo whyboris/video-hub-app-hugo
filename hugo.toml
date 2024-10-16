@@ -1,9 +1,14 @@
+title = "Video Hub App"
+baseURL = "https://videohubapp.com"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
-baseURL = "https://videohubapp.com"
-title = "Video Hub App"
-disableKinds = ["taxonomy"]
 enableRobotsTXT = true
+disableKinds = ["taxonomy"]
+[params]
+  latestVersion = "3.2.0"
+[services]
+  [services.googleAnalytics]
+    ID = 'G-WXY3YFNQ7Z'
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
@@ -78,5 +83,3 @@ enableRobotsTXT = true
   [languages.zh]
     contentDir = "content/zh"
     languageCode = "zh"
-[params]
-  latestVersion = "3.2.0"

@@ -298,6 +298,15 @@
     "organize_videos": "organize videos",
     "video_organizer": "video organizer"
   },
+  "titles": {
+    "about": "About",
+    "blog": "Blog",
+    "contact": "Contact",
+    "download": "Download",
+    "faq": "Frequently Asked Questions",
+    "guide": "User Guide",
+    "share": "Share"
+  },
   "share": {
     "appreciate": "I appreciate any donations",
     "buycoffee": "Buy me a coffee",

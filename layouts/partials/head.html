@@ -3,7 +3,11 @@
 
 <title>
   {{ block "title" . }}
-    {{ with .Params.Title }}{{ . }} | {{ end }}{{ .Site.Title }}
+    {{ if .Params.Title }}
+      {{ $title := print "titles" "." .Params.Title }}
+      {{ i18n $title }} |
+    {{ end }}
+    {{ .Site.Title }}
   {{ end }}
 </title>
 

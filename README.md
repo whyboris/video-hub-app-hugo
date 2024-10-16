@@ -24,3 +24,5 @@ pyftsubset typicons.woff \
 ```
 
 Thanks to [StackOverflow](https://stackoverflow.com/a/48492035/5017391) for the cool trick!
+
+_Favicons_ were created with [realfavicongenerator.net](https://realfavicongenerator.net/)

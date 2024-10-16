@@ -32,11 +32,7 @@
 
 {{ hugo.Generator }}
 
-{{ if .Site.Params.production }}
-  <meta name="robots" content="index, follow" />
-{{ else }}
-  <meta name="robots" content="noindex, nofollow" />
-{{ end }}
+<meta name="robots" content="index, follow" />
 
 <link rel="canonical" href="{{ .Permalink }}" />
 

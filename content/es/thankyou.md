@@ -1,6 +1,6 @@
 ---
 title: thankyou
-date: 2023-10-10
+date: 2024-10-10
 ---
 
 {{< thankyou >}}

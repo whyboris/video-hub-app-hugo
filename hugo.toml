@@ -1,7 +1,7 @@
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
-baseURL = 'https://videohubapp.com'
-title = 'Video Hub App'
+baseURL = "https://videohubapp.com"
+title = "Video Hub App"
 disableKinds = ["taxonomy"]
 enableRobotsTXT = true
 [markup]
@@ -9,13 +9,74 @@ enableRobotsTXT = true
     [markup.goldmark.renderer]
       unsafe = true
 [languages]
+  [languages.ar]
+    contentDir = "content/ar"
+    languageCode = "ar"
+  [languages.bn]
+    contentDir = "content/bn"
+    languageCode = "bn"
+  [languages.cs]
+    contentDir = "content/cs"
+    languageCode = "cs"
+  [languages.de]
+    contentDir = "content/de"
+    languageCode = "de"
   [languages.en]
-    contentDir = 'content/en'
+    contentDir = "content/en"
     languageCode = "en-US"
-    weight = 1
+  [languages.fr]
+    contentDir = "content/fr"
+    languageCode = "fr"
+  [languages.ha]
+    contentDir = "content/ha"
+    languageCode = "ha"
+  [languages.hi]
+    contentDir = "content/hi"
+    languageCode = "hi"
+  [languages.it]
+    contentDir = "content/it"
+    languageCode = "it"
+  [languages.he]
+    contentDir = "content/he"
+    languageCode = "he"
+  [languages.ja]
+    contentDir = "content/ja"
+    languageCode = "ja"
+  [languages.ko]
+    contentDir = "content/ko"
+    languageCode = "ko"
+  [languages.ms]
+    contentDir = "content/ms"
+    languageCode = "ms"
+  [languages.nl]
+    contentDir = "content/nl"
+    languageCode = "nl"
+  [languages.pl]
+    contentDir = "content/pl"
+    languageCode = "pl"
+  [languages.pt]
+    contentDir = "content/pt"
+    languageCode = "pt"
+  [languages.ru]
+    contentDir = "content/ru"
+    languageCode = "ru"
   [languages.es]
-    contentDir = 'content/es'
-    languageCode = "es-ES"
-    weight = 2
+    contentDir = "content/es"
+    languageCode = "es"
+  [languages.tr]
+    contentDir = "content/tr"
+    languageCode = "tr"
+  [languages.uk]
+    contentDir = "content/uk"
+    languageCode = "uk"
+  [languages.ur]
+    contentDir = "content/ur"
+    languageCode = "ur"
+  [languages.vi]
+    contentDir = "content/vi"
+    languageCode = "vi"
+  [languages.zh]
+    contentDir = "content/zh"
+    languageCode = "zh"
 [params]
-  latestVersion = '3.2.0'
+  latestVersion = "3.2.0"

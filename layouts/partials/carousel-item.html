@@ -1,0 +1,13 @@
+<div class="swiper-slide step">
+    <div class="step-image">
+        <img src="{{ .img }}">
+    </div>
+    <div class="step-text">
+        <span class="feature-heading">{{ i18n .heading }}</span>
+        <ul class="feature-list">
+            {{ range .features }}
+            <li>{{ i18n . }}</li>
+            {{ end }}
+        </ul>
+    </div>
+</div>

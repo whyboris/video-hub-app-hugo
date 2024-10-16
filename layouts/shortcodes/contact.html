@@ -1,0 +1,41 @@
+<section class="contact-page">
+  <h2 style="text-align: center; margin-bottom: 40px">
+    {{ i18n "contact.heading" }}
+  </h2>
+
+  <form id="fs-frm" name="simple-contact-form" acceptCharset="utf-8" action="https://formspree.io/boris@videohubapp.com"
+    method="post">
+    <fieldset>
+      <label htmlFor="reason">
+        {{ i18n "contact.reason" }}
+      </label>
+      <select name="reason" id="reason" required="">
+        <option value="bug">
+          {{ i18n "contact.bug" }}
+        </option>
+        <option value="request">
+          {{ i18n "contact.request" }}
+        </option>
+        <option value="lostlink">
+          {{ i18n "contact.lostlink" }}
+        </option>
+        <option value="other" defaultValue>
+          {{ i18n "contact.other" }}
+        </option>
+      </select>
+
+      <label htmlFor="email-address">
+        {{ i18n "contact.email" }}
+      </label>
+      <input type="email" name="_replyto" id="email-address" placeholder="name@email.com" required="" />
+
+      <label htmlFor="message">
+        {{ i18n "contact.message" }}
+      </label>
+      <textarea rows="5" name="message" id="message" placeholder="" required=""></textarea>
+
+      <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission" />
+    </fieldset>
+    <input type="submit" value="Submit" />
+  </form>
+</section>

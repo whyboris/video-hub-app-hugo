@@ -1,0 +1,200 @@
+{{ define "main" }}
+
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+
+<script>
+  function playAnimation() {
+    setTimeout(() => {
+      const docRef = typeof document !== `undefined` ? document : undefined;
+      if (docRef) {
+        const appSplashImage = document.getElementById("splashImage")
+        appSplashImage.classList.add("splash-animation")
+        const appWireframe = document.getElementById("splashSVG")
+        setTimeout(() => {
+          appWireframe.classList.add("hide-it")
+        }, 500)
+      }
+    }, 1000)
+  }
+</script>
+
+<div class="language-select">
+  <div class="dropbtn dropbtn-language">
+    {{ readFile "static/svg/language.svg" | safeHTML }}
+  </div>
+</div>
+
+<div class="top-container">
+  <div class="computer-and-splash">
+    <div class="computer">
+      {{ readFile "static/svg/computer.svg" | safeHTML }}
+    </div>
+
+    <div class="splash-container">
+      <div class="splash-image-container">
+        {{ readFile "static/svg/splash.svg" | safeHTML }}
+        <img alt="Video Hub App screenshot" id="splashImage" src="/images/splash.jpg" onLoad={playAnimation()} />
+      </div>
+    </div>
+  </div>
+
+  <div class="main-title">
+    <h1>
+      Video Hub App
+      <span class="version">
+        {{ i18n "home.version" }} {{ .Site.Params.latestVersion }}
+      </span>
+    </h1>
+    <p>
+      {{ i18n "home.like_youtube" }}
+    </p>
+    <p>
+      {{ i18n "home.tagline" }}
+    </p>
+
+    <p class="win-mac-linux">Windows / Mac / Linux</p>
+
+    <div class="download-button-container">
+      <a href="/download" class="button">
+        {{ i18n "home.download" }}
+      </a>
+    </div>
+  </div>
+</div>
+
+<section class="move-down-hack">
+  <div class="feature-preview reverse">
+    <div class="image-container">
+      <video muted src="/images/1.mp4" loop autoPlay>
+        <img alt="video hub app screenshot" src="/images/1.webp" />
+      </video>
+    </div>
+    <span>
+      {{ i18n "home.feature1" }}
+      <span class="subtext">
+        {{ i18n "home.feature1_text" }}
+      </span>
+    </span>
+  </div>
+
+  <div class="feature-preview">
+    <div class="image-container">
+      <img alt="video hub app screenshot" src="/images/2.webp" />
+    </div>
+    <span>
+      {{ i18n "home.feature2" }}
+      <span class="subtext">
+        {{ i18n "home.feature2_text" }}
+      </span>
+    </span>
+  </div>
+
+  <div class="feature-preview reverse">
+    <div class="image-container">
+      <img alt="video hub app screenshot" src="/images/3.webp" />
+    </div>
+    <span>
+      {{ i18n "home.feature3" }}
+      <span class="subtext">
+        {{ i18n "home.feature3_text" }}
+      </span>
+    </span>
+  </div>
+
+  <div class="feature-preview">
+    <div class="image-container">
+      <img alt="video hub app screenshot" src="/images/4.webp" />
+    </div>
+    <span>
+      {{ i18n "home.feature4" }}
+      <span class="subtext">
+        {{ i18n "home.feature4_text" }}
+      </span>
+    </span>
+  </div>
+
+  <div class="feature-preview reverse">
+    <div class="image-container">
+      <img alt="video hub app screenshot" src="/images/5.webp" />
+    </div>
+    <span>
+      {{ i18n "home.feature5" }}
+      <span class="subtext">
+        {{ i18n "home.feature5_text" }}
+      </span>
+    </span>
+  </div>
+
+  <h2 class="many-features">
+    {{ i18n "home.many_more" }}:
+  </h2>
+
+  {{ partial "carousel" }}
+
+</section>
+
+<div class="easy-to-use">
+  <img src="/images/wizard.webp" alt="How to start with Video Hub App"></img>
+
+  <div class="how-to-use">
+    <h2>
+      {{ i18n "home.easy" }}
+    </h2>
+
+    <div>
+      <i>1</i>
+      <h3>
+        {{ i18n "home.step1" }}
+      </h3>
+      <p>
+        {{ i18n "home.step1_text" }}
+      </p>
+    </div>
+
+    <div>
+      <i>2</i>
+      <h3>
+        {{ i18n "home.step2" }}
+      </h3>
+      <p>
+        {{ i18n "home.step2_text" }}
+      </p>
+    </div>
+
+    <div>
+      <i>3</i>
+      <h3>
+        {{ i18n "home.step3" }}
+      </h3>
+      <p>
+        {{ i18n "home.step3_text" }}
+      </p>
+    </div>
+  </div>
+</div>
+
+<section class="download-now">
+  <img src="/images/all-desktops.webp" alt="works on Windows, Mac, and Linux" class="img-responsive" />
+
+  <h2>Windows / Mac / Linux</h2>
+  <p>
+    {{ i18n "home.every_os" }}
+  </p>
+
+  <div class="download-button-container">
+    <a href="/download" class="button">
+      {{ i18n "home.download" }}
+    </a>
+  </div>
+</section>
+
+<h1 class="reviews-heading">
+  {{ i18n "blog.reviews" }}:
+</h1>
+
+{{ partial "quotes" }}
+
+{{ end }}

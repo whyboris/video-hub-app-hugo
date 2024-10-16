@@ -1,0 +1,196 @@
+[
+  {
+    "date": "Feb 20, 2023",
+    "features": [
+      "click on heart to mark video as favorite",
+      "newer version of screenshot extraction engine",
+      "sort by last-time-played",
+      "show bitrate in details",
+      "Mac menu bar improvements",
+      "remember options from last hub creation",
+      "many other small improvements"
+    ],
+    "bugfixes": [
+      "dragging video outside of app does not cause error",
+      "magic search includes manual tags",
+      "some more minor bugfixes"
+    ],
+    "version": "3.2.0",
+    "notes": "Fifth anniversary release 🎉 If you purchased the app before, visit my.videohubapp.com"
+  },
+  {
+    "date": "Sep 12, 2021",
+    "notes": "Thanks to Oren for creating a user guide for VHA!",
+    "linkInternal": {
+      "link": "/guide",
+      "text": "User Guide"
+    },
+    "hideTada": true
+  },
+  {
+    "date": "Feb 20, 2021",
+    "features": [
+      "Remote control (use phone or tablet with the app)",
+      "Support MPV video player",
+      "extract FPS and sort by it",
+      "times played filter"
+    ],
+    "bugfixes": [
+      "scanning remote drives is fast and without error",
+      "Mac copy/paste works",
+      "some more minor bugfixes"
+    ],
+    "version": "3.1.0",
+    "notes": "If you purchased the app before, visit my.videohubapp.com"
+  },
+  {
+    "date": "Nov 30, 2020",
+    "features": [
+      "More than one input / source folder per hub",
+      "'Watch folder' live for updates",
+      "Bottom tray with Word cloud, Recently played, Details and other tabs",
+      "Set custom keyboard shortcuts",
+      "Single / double click mode toggle",
+      "Many more smaller features"
+    ],
+    "bugfixes": [
+      "Too many to list"
+    ],
+    "version": "3.0.0",
+    "notes": "If you purchased the app before, visit my.videohubapp.com"
+  },
+  {
+    "date": "May 15, 2020",
+    "features": [
+      "Batch tagging",
+      "Details view 2",
+      "Quick file rename",
+      "Sort by number of tags or aspect ratio",
+      "Show default thumbnail in clip view option",
+      "Check for new release button in settings"
+    ],
+    "bugfixes": [
+      "Save settings when closing via menu bar / taksbar"
+    ],
+    "version": "2.2.3",
+    "notes": "Everyone who has ever purchased the app (1600+ people) will receive a download link in their email shortly."
+  },
+  {
+    "date": "Mar 3, 2020",
+    "features": [
+      "Create playlist from current view",
+      "Folders can be sorted by 'last modified'",
+      "Folders with single video show larger preview",
+      "and many more smaller ones"
+    ],
+    "bugfixes": [
+      "no more crashing when extracting videos",
+      "more robust screenshot extraction",
+      "better algorithm for automatic tags",
+      "and many more smaller ones"
+    ],
+    "version": "2.2.0",
+    "notes": "Everyone who has ever purchased the app (1300+ people) will receive a download link in their email shortly."
+  },
+  {
+    "date": "Jan 27, 2020",
+    "features": [
+      "Touch Bar support",
+      "Fuzzy search 🔍",
+      "pick default thumbnail",
+      "right-click delete file option",
+      "and many more smaller ones"
+    ],
+    "bugfixes": [
+      "better success extracting screenshots",
+      "better detection of correct video resolution",
+      "and many more smaller ones"
+    ],
+    "version": "2.1.0",
+    "notes": "Everyone who has ever purchased the app (1200+ people) will receive a download link in their email shortly."
+  },
+  {
+    "date": "Oct 18, 2019",
+    "features": [
+      "Tags 🎉 add your own tags to any video",
+      "Choose number of screenshots per video",
+      "Sheet view: view every screenshot from a video",
+      "Optionally extract video clip preview",
+      "Folder navigation",
+      "Sort by date added, number of times played, star rating, file size,file name",
+      "Replace any video thumbnail by dropping an image over the preview",
+      "Option to open video from the screenshot you click",
+      "Duplicate finder",
+      "Hub statistics",
+      "Options menu grouped into sections",
+      "Translations in 14 languges",
+      "Remember window size after app closes",
+      "Many bugfixes",
+      "and more 🚀"
+    ],
+    "version": "2.0.0",
+    "notes": "Thank you all for your patience. Everyone who has ever purchased the app (850+ people) will receive a download link in their email shortly."
+  },
+  {
+    "date": "Dec 2, 2018",
+    "notes": "Video Hub App is now open source! If you're a developer and would like to contribute to the project or just see the code:",
+    "link": {
+      "link": "https://github.com/whyboris/Video-Hub-App",
+      "text": "GitHub"
+    },
+    "hideTada": true
+  },
+  {
+    "date": "Jul 22, 2018",
+    "notes": "Video Hub App is on ProductHunt!",
+    "link": {
+      "link": "https://www.producthunt.com/posts/video-hub-app",
+      "text": "ProductHunt"
+    },
+    "hideTada": true
+  },
+  {
+    "date": "Jul 4, 2018",
+    "notes": "YouTube video for the app!",
+    "link": {
+      "link": "https://www.youtube.com/watch?v=_KC9xrsiwZg",
+      "text": "YouTube"
+    },
+    "hideTada": true
+  },
+  {
+    "date": "May 14, 2018",
+    "features": [
+      "Auto tagging",
+      "Manual tagging"
+    ],
+    "notes": "Linux version is available!",
+    "version": "1.3.0"
+  },
+  {
+    "date": "Apr 24, 2018",
+    "features": [
+      "Rename file",
+      "Show similar"
+    ],
+    "version": "1.2.0"
+  },
+  {
+    "date": "Apr 8, 2018",
+    "features": [
+      "Resolution filter",
+      "Resize app user interface"
+    ],
+    "bugfixes": [
+      "Rescan folder works",
+      "Save settings on exit",
+      "Remove screenshots for videos no longer in library"
+    ],
+    "version": "1.1.0"
+  },
+  {
+    "date": "Feb 20, 2018",
+    "notes": "Initial release. Windows and Mac versions released as demo. App is now available for purchase.",
+    "version": "1.0.0"
+  }
+]

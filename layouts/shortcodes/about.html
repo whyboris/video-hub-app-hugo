@@ -1,0 +1,32 @@
+<div class="about-me">
+  <img src="/img/boris.jpg" class="img-fit">
+
+  <h1>Boris Yakubchik</h1>
+
+  <h2>{{ i18n "about.creator" }} Video Hub App</h2>
+
+  <p>
+    {{ partial "amf-links" (i18n "about.bio") }}
+  </p>
+
+</div>
+
+<section class="why-donate">
+  <h1>{{ i18n "about.whydonate" }}</h1>
+
+  <img src="/img/againstmalariafoundation.jpg" class="img-fit">
+
+  <p>
+    {{ partial "amf-links" (i18n "about.p1") }}
+  </p>
+
+  <p>
+    {{ partial "amf-links" (i18n "about.p2") }}
+  </p>
+</section>
+
+<h1 class="reviews-heading">
+  {{ i18n "about.title" }} AMF:
+</h1>
+
+{{ partial "givewell" }}

@@ -1,0 +1,62 @@
+[
+  {
+    "img": "/images/features/1.jpg",
+    "heading": "carousel.search_by",
+    "features": [
+      "carousel.search_by1",
+      "carousel.search_by2",
+      "carousel.search_by3",
+      "carousel.search_by4",
+      "carousel.search_by5",
+      "carousel.and_more"
+    ]
+  },
+  {
+    "img": "/images/features/2.jpg",
+    "heading": "carousel.sort_by",
+    "features": [
+      "carousel.sort_by1",
+      "carousel.sort_by2",
+      "carousel.sort_by3",
+      "carousel.sort_by4",
+      "carousel.sort_by5",
+      "carousel.and_more"
+    ]
+  },
+  {
+    "img": "/images/features/3.jpg",
+    "heading": "carousel.tags",
+    "features": [
+      "carousel.tags1",
+      "carousel.tags2",
+      "carousel.tags3",
+      "carousel.tags4",
+      "carousel.tags5",
+      "carousel.and_more"
+    ]
+  },
+  {
+    "img": "/images/features/4.jpg",
+    "heading": "carousel.more",
+    "features": [
+      "carousel.more1",
+      "carousel.more2",
+      "carousel.more3",
+      "carousel.more4",
+      "carousel.more5",
+      "carousel.more6"
+    ]
+  },
+  {
+    "img": "/images/features/5.jpg",
+    "heading": "carousel.moremore",
+    "features": [
+      "carousel.moremore1",
+      "carousel.moremore2",
+      "carousel.moremore3",
+      "carousel.moremore4",
+      "carousel.moremore5",
+      "carousel.and_more"
+    ]
+  }
+]

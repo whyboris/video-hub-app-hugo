@@ -1,0 +1,64 @@
+<div class="price-container">
+
+  {{ with .Site.Data.downloads }}
+    {{ partial "demo" .windows }}
+    {{ partial "demo" .mac }}
+    {{ partial "demo" .linux }}
+  {{ end }}
+
+  <div class="price-box popular">
+    <div class="popular-text">
+      {{ i18n "download.unlimited" }}
+    </div>
+    <h2 class="pricing-plan">
+      {{ i18n "download.every" }} OS
+    </h2>
+    <div class="price">
+      <sup class="currency">$</sup>5<sup class="currency">.00</sup>
+    </div>
+    <hr />
+    <ul class="pricing-info">
+      <li> {{ i18n "download.buy1" }}</li>
+      <li> {{ i18n "download.buy2" }}</li>
+      <li> {{ i18n "download.buy3" }}</li>
+      <li> {{ i18n "download.buy4" }}</li>
+    </ul>
+
+    <a href="https://buy.stripe.com/5kA15h7s5eQM6085kk" data-chec-product-id="video-hub-app" class="btn btn-primary">
+      {{ i18n "download.buy" }}
+    </a>
+
+  </div>
+</div>
+
+<section class="please-share">
+  <h1>{{ i18n "download.details" }}</h1>
+
+  <h2>100% {{ i18n "download.clean" }}</h2>
+
+  <p>
+    <em>100% CLEAN</em> {{ i18n "download.award" }} -
+    <a href="http://www.softpedia.com/get/Multimedia/Video/Other-VIDEO-Tools/Video-Hub-App.shtml#status">
+      Softpedia
+    </a>
+  </p>
+
+  <h2>{{ i18n "download.paying" }}</h2>
+
+  <p>{{ i18n "download.paying_text" }}</p>
+
+  <h2>{{ i18n "download.after" }}</h2>
+
+  <p>{{ i18n "download.after_text" }} <a href="https://my.videohubapp.com/">my.videohubapp.com</a></p>
+
+  <h2>{{ i18n "download.whypay" }}</h2>
+
+  <p>{{ i18n "download.whypay_text" }}</p>
+
+  <a href="/about">{{ i18n "blog.read_more" }}</a>
+
+  <h2>{{ i18n "share.thankyou" }}</h2>
+
+  <p>This software uses <a href="https://ffmpeg.org">FFmpeg</a></p>
+
+</section>

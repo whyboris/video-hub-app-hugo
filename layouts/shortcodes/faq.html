@@ -1,0 +1,85 @@
+<section class="faq">
+  <h1>
+    {{ i18n "faq.heading" }}
+  </h1>
+
+  <h2>
+    {{ i18n "faq.start" }}
+  </h2>
+  <ol class="with-numbers">
+    <li>
+      {{ i18n "faq.start_a1" }}
+    </li>
+    <li>
+      {{ i18n "faq.start_a2" }}
+    </li>
+    <li>
+      {{ i18n "faq.start_a3" }}
+    </li>
+    <li>
+      {{ i18n "faq.start_a4" }}
+    </li>
+    <li>
+      {{ i18n "faq.start_a5" }}
+    </li>
+  </ol>
+  <p>
+    {{ i18n "faq.start_a6" }}
+  </p>
+  <p>
+    {{ i18n "faq.start_a7" }}
+  </p>
+
+  {{ $questions := slice "q1" "q2" "q3" "q4" "q5" "q6" "q7" "q8" }}
+
+  {{ range $questions }}
+
+  {{ $q := (print "faq." . )}}
+  {{ $qa := (print "faq." . "_answer" )}}
+
+  <h2>
+    {{ i18n $q }}
+  </h2>
+
+  <p>
+    {{ i18n $qa }}
+  </p>
+
+  {{ end }}
+
+  <h2>
+    {{ i18n "faq.file_support" }}
+  </h2>
+  <p>
+    264, 265, 3g2, 3gp, avi, divx, flv, h264, h265, hevc, m4a, m4v, m4v,
+    mkv, mov, mp2, mp4, mpe, mpeg, mpg, ogg, rm, vob, webm, wmv
+  </p>
+
+  <h2>
+    {{ i18n "faq.multifolder" }}
+  </h2>
+  <p>
+    {{ i18n "faq.multifolder_a1" }}
+  </p>
+  <p>
+    {{ i18n "faq.multifolder_a2" }}
+  </p>
+  <p>
+    {{ i18n "faq.multifolder_a3" }}
+  </p>
+  <ul>
+    <li>
+      {{ i18n "faq.multifolder_a4" }}
+    </li>
+    <li>
+      {{ i18n "faq.multifolder_a5" }}
+    </li>
+  </ul>
+
+  <h2>
+    {{ i18n "faq.privacy_policy" }}
+  </h2>
+  <p>
+    {{ i18n "faq.privacy_policy_a1" }}
+  </p>
+</section>

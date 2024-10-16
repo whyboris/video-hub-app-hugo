@@ -1,0 +1,23 @@
+{
+  "windows": {
+    "os": "Windows",
+    "size": "120mb",
+    "link": "https://github.com/whyboris/Video-Hub-App/releases/download/v3.2.0/Video.Hub.App.3.Demo.Setup.3.2.1.exe",
+    "portable": "https://github.com/whyboris/Video-Hub-App/releases/download/v3.2.0/Video.Hub.App.3.Demo.Portable.3.2.0.exe",
+    "version": "3.2.0"
+  },
+  "mac": {
+    "os": "Mac",
+    "size": "129mb",
+    "link": "https://github.com/whyboris/Video-Hub-App/releases/download/v3.2.0/Video.Hub.App.3.Demo-3.2.0-arm64.dmg",
+    "macIntel": "https://github.com/whyboris/Video-Hub-App/releases/download/v3.1.0/Video.Hub.App.3-3.1.0-demo.dmg",
+    "version": "3.2.0"
+  },
+  "linux": {
+    "os": "Linux",
+    "size": "168mb",
+    "link": "https://github.com/whyboris/Video-Hub-App/releases/download/v3.2.0/Video.Hub.App.3.Demo-3.2.0.AppImage",
+    "oldHack": "https://github.com/whyboris/Video-Hub-App/releases/download/v3.1.0/Video.Hub.App.3-3.1.0-demo.AppImage",
+    "version": "3.2.0"
+  }
+}

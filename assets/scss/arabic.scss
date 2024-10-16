@@ -1,0 +1,26 @@
+.rtl-version {
+  p,
+  h1,
+  h2,
+  h3,
+  ol,
+  ul,
+  .swiper-slide
+  {
+    direction: rtl;
+  }
+  
+  .blog-contents {
+    p,
+    h1,
+    h2,
+    h3,
+    ol,
+    ul,
+    .swiper-slide
+    {
+      direction: ltr;
+    }
+  }
+
+}

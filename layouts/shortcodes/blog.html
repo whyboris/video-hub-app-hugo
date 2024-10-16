@@ -1,0 +1,123 @@
+{{ $TOTAL_DONATION_DOLLAR_AMOUNT := "16,450" }}
+{{ $LAST_DONATION_DATE := "Jan 31, 2023" }}
+{{ $LAST_RELEASE_DATE := "Feb 20, 2023" }}
+
+<div class="price-container blog-sections">
+  <div class="price-box blog-box with-button">
+    <h2 class="pricing-plan">
+      {{ i18n "blog.version" }}
+    </h2>
+    <div class="price">{{ .Site.Params.latestVersion }}</div>
+    <span class="light">
+
+      {{ i18n "blog.released" }}
+    </span>
+    {{ $LAST_RELEASE_DATE }}
+    <hr />
+    <span class="donation-description">
+      Last years were very busy for me, but I intend to resume VHA development in early 2025.
+    </span>
+  </div>
+
+  <div class="price-box blog-box with-button">
+    <h2 class="pricing-plan">
+      {{ i18n "blog.donated" }}
+    </h2>
+    <div class="price">
+      <sup class="currency">$</sup>{{ $TOTAL_DONATION_DOLLAR_AMOUNT }}
+    </div>
+    <span class="light">
+      {{ i18n "blog.updated" }}
+    </span>
+    {{ $LAST_DONATION_DATE }}
+    <hr />
+    <span class="donation-description">
+      <p>
+        {{ partial "amf-links" (i18n "blog.donation_text") }}
+      </p>
+      <a href="/about">
+        {{ i18n "blog.read_more" }}
+      </a>
+    </span>
+  </div>
+
+  <div class="price-box blog-box">
+    <h2 class="pricing-plan">
+      {{ i18n "blog.reviews" }}
+    </h2>
+    <ul class="pricing-info review-quotes">
+      <li>
+        <a href="http://nkj2011.blog.fc2.com/blog-entry-599.html">NKJ11</a>: "{{ i18n "reviews.nkj11" }}"
+      </li>
+
+      <li>
+        <a href="https://gigazine.net/news/20180805-video-hub-app-review/">Gigazine</a>: "{{ i18n "reviews.gigazine" }}"
+      </li>
+
+      <li>
+        <a href="https://www.softpedia.com/get/Multimedia/Video/Other-VIDEO-Tools/Video-Hub-App.shtml">Softpedia</a>: "{{ i18n "reviews.softpedia" }}"
+      </li>
+
+      <li>
+        <a href="http://video-hub-app.findmysoft.com/">FindMySoft</a>: "{{ i18n "reviews.findmysoft" }}"
+      </li>
+    </ul>
+  </div>
+</div>
+
+<section class="blog-contents">
+  <h1>
+    {{ i18n "blog.releases" }}
+  </h1>
+
+  {{ range .Site.Data.releases }}
+
+    <div class="release">
+      {{ if not .hideTada }}
+        <span class="tada" role="img">🎉</span>
+      {{ end }}
+
+      <span class="date">{{ .date }}</span>
+
+      {{ if .version }}<span class="version">v{{ .version }}</span>{{ end }}
+
+      {{ if .features }}
+      <span class="bold">
+        {{ i18n "blog.features" }}:
+      </span>
+      <ul>
+        {{ range .features }}
+        <li>{{ . }}</li>
+        {{ end }}
+      </ul>
+      {{ end }}
+
+      {{ if .bugfixes }}
+      <span class="bold">
+        {{ i18n "blog.bugfixes" }}:
+      </span>
+      <ul>
+        {{ range .bugfixes }}
+        <li>{{ . }}</li>
+        {{ end }}
+      </ul>
+      {{ end }}
+
+      {{ if .notes }}
+      <span class="notes">{{ .notes }}</span>
+      {{ end }}
+
+      {{ if .link }}
+      <a href={{ .link.link }}>{{ .link.text }}</a>
+      {{ end }}
+
+      {{ if .linkInternal}}
+      <a href={{ .linkInternal.link }}>
+        {{ .linkInternal.text }}</a>
+      {{end }}
+
+    </div>
+
+  {{ end }}
+
+</section>

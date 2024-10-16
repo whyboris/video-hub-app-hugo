@@ -1,0 +1,37 @@
+<div class="swiper">
+
+    <div class="swiper-wrapper">
+
+        {{ range site.Data.carousel }}
+            {{ partial "carousel-item" . }}
+        {{ end }}
+    </div>
+
+    <div class="swiper-pagination"></div>
+
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script>
+    const params = {
+        loop: true,
+        pagination: {
+            el: ".swiper-pagination",
+            type: "bullets",
+            clickable: true,
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+        autoplay: {
+            delay: 20000,
+            disableOnInteraction: true,
+        },
+        spaceBetween: 30,
+    }
+    const swiper = new Swiper('.swiper', params)
+</script>

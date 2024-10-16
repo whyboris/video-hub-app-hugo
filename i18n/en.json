@@ -130,7 +130,7 @@
     "title": "Frequently Asked Questions | FAQ"
   },
   "general": {
-    "description": "Browse, search, and organize your videos",
+    "about": "Video Hub App is software that helps you browse, search, and organize your videos",
     "title": "Video Hub App"
   },
   "givewell": {
@@ -300,12 +300,19 @@
   },
   "titles": {
     "about": "About",
+    "about_description": "About Video Hub App and its creator",
     "blog": "Blog",
+    "blog_description": "Blog for Video Hub App",
     "contact": "Contact",
+    "contact_description": "Contact creator of Video Hub App with questions, comments, or bugs",
     "download": "Download",
+    "download_description": "Download Video Hub App demo or purchase software",
     "faq": "Frequently Asked Questions",
+    "faq_description": "Frequently Asked Questions for Video Hub App",
     "guide": "User Guide",
-    "share": "Share"
+    "guide_description": "User Guide for Video Hub App",
+    "share": "Share",
+    "share_description": "Share Video Hub App with others on your social media platforms"
   },
   "share": {
     "appreciate": "I appreciate any donations",

@@ -17,12 +17,17 @@
 
 <meta
   name="description"
-  content="{{ with .Description }}{{ . }}{{ else }}{{ if .IsPage }}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}"
+  {{ if .Params.Title }}
+    {{ $pageDescription := print "titles" "." .Params.Title "_description" }}
+    content="{{ i18n $pageDescription }}"
+  {{ else }}
+    content="{{ i18n "general.about" }}"
+  {{ end }}
 />
 
 <meta
   name="keywords"
-  content="video, video hub, video hub app, VHA, software, app, organizer, video organizer"
+  content="{{ i18n "seo.video_organizer" }}, {{ i18n "seo.organize_videos" }}, {{ i18n "seo.file_organizer" }}"
 />
 
 {{ hugo.Generator }}

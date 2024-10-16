@@ -1,0 +1,22 @@
+<div class="dropdown-content dropdown-content-language">
+
+  {{ $languages := site.Data.languages }}
+
+  {{ range $languages }}
+
+    <a
+      href="{{ .code }}/"
+      class="language-selection"
+      style="color: {{ if eq site.Language.Lang .code }} #335fff {{ else }} #222222 {{ end }}"
+    >
+      <div class="language-english">
+        {{ .english }}
+      </div>
+      <div class="language-original">
+        {{ .native }}
+      </div>
+    </a>
+
+  {{ end }}
+
+</div>

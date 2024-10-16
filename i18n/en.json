@@ -1,9 +1,9 @@
 {
   "about": {
-    "bio": "Boris is a web developer working at Forbes. Video Hub App is a side-project created with Electron and Angular. {intl_donated} of every sale of this software is donated to the {intl_amf}, a top-rated charity by {intl_givewell}.",
+    "bio": "Boris created Video Hub App with Electron and Angular. Thanks to past purchases, Boris donated over {intl_donated} to the {intl_amf}, a top-rated charity by {intl_givewell}.",
     "creator": "Creator of",
     "p1": "Donations go to the {intl_amf} (AMF) because it is a top-rated charity by {intl_givewell}, an independent charity evaluator. Every $2 given to AMF protects two people from malaria for 3-4 years.",
-    "p2": "Boris has been giving at least 10% of his income to the most cost-effective charities (see {intl_givewell}) since 2011. Sales from this software will provide additional donations to his favorite charity.",
+    "p2": "Boris has been giving at least 10% of his income to the most cost-effective charities (see {intl_givewell}) since 2011. Sales from this software were made in addition to his usual donations to his favorite charity.",
     "title": "About",
     "whydonate": "Why donate?"
   },
@@ -11,14 +11,14 @@
     "app_purchase": "app purchase",
     "bugfixes": "Bugfixes",
     "donated": "Total donated",
-    "donation_text": "{intl_donated} from every purchase goes to the {intl_amf}, a top-rated charity by {intl_givewell}.",
+    "donation_text": "A portion from purchases goes to the {intl_amf}, a top-rated charity by {intl_givewell}.",
     "features": "Features",
     "read_more": "Read more",
     "receipt": "receipt",
     "released": "released",
     "releases": "Releases:",
     "reviews": "Some reviews",
-    "updated": "updated",
+    "since": "since",
     "version": "Latest version"
   },
   "carousel": {

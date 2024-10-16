@@ -1,5 +1,5 @@
 {{ $TOTAL_DONATION_DOLLAR_AMOUNT := "16,450" }}
-{{ $LAST_DONATION_DATE := "Jan 31, 2023" }}
+{{ $LAST_DONATION_DATE := "February 2018" }}
 {{ $LAST_RELEASE_DATE := "Feb 20, 2023" }}
 
 <div class="price-container blog-sections">
@@ -27,7 +27,7 @@
       <sup class="currency">$</sup>{{ $TOTAL_DONATION_DOLLAR_AMOUNT }}
     </div>
     <span class="light">
-      {{ i18n "blog.updated" }}
+      {{ i18n "blog.since" }}
     </span>
     {{ $LAST_DONATION_DATE }}
     <hr />
@@ -35,7 +35,7 @@
       <p>
         {{ partial "amf-links" (i18n "blog.donation_text") }}
       </p>
-      <a href="/about">
+      <a href="{{ relLangURL "about" }}" class="read-more">
         {{ i18n "blog.read_more" }}
       </a>
     </span>

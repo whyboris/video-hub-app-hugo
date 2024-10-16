@@ -23,6 +23,20 @@
       </span>
     </button>
 
+    <div
+      style="font-size: 20px;
+            padding: 10px;
+            border-radius: 10px;
+            background: white;
+            font-weight: bold;
+            position: absolute;
+            border: 10px solid red;
+            top: 30px;
+            left: 50vw;
+            z-index: 2000">
+      {{ .Lang }}
+    </div>
+
     <div id="perspective" class="perspective effect-moveleft">
       <div class="containerNAV">
         <div class="wrapper" id="clickHack">
@@ -81,56 +95,56 @@
 
       <nav class="outer-nav right vertical">
         <a
-          href="/"
+          href="{{ relLangURL "/" }}"
           class="my-icon-home {{ if eq .Title "home" . }} current-page {{ end }}"
           activeclass="current-page"
         >
           {{ i18n "navigation.home" }}
         </a>
         <a
-          href="/download"
+          href="{{ relLangURL "download" }}"
           class="my-icon-download {{ if eq .Title "download" . }} current-page {{ end }}"
           activeclass="current-page"
         >
           {{ i18n "navigation.download" }}
         </a>
         <a
-          href="/share"
+          href="{{ relLangURL "share" }}"
           class="my-icon-heart {{ if eq .Title "share" . }} current-page {{ end }}"
           activeclass="current-page"
         >
           {{ i18n "navigation.share" }}
         </a>
         <a
-          href="/blog"
+          href="{{ relLangURL "blog" }}"
           class="my-icon-news {{ if eq .Title "blog" . }} current-page {{ end }}"
           activeclass="current-page"
         >
           {{ i18n "navigation.blog" }}
         </a>
         <a
-          href="/faq"
+          href="{{ relLangURL "faq" }}"
           class="my-icon-star {{ if eq .Title "faq" . }} current-page {{ end }}"
           activeclass="current-page"
         >
           {{ i18n "navigation.faq" }}
         </a>
         <a
-          href="/guide"
+          href="{{ relLangURL "guide" }}"
           class="my-icon-book {{ if eq .Title "guide" . }} current-page {{ end }}"
           activeclass="current-page"
         >
           {{ i18n "navigation.guide" }}
         </a>
         <a
-          href="/about"
+          href="{{ relLangURL "about" }}"
           class="my-icon-info-large {{ if eq .Title "about" . }} current-page {{ end }}"
           activeclass="current-page"
         >
           {{ i18n "navigation.about" }}
         </a>
         <a
-          href="/contact"
+          href="{{ relLangURL "contact" }}"
           class="my-icon-mail {{ if eq .Title "contact" . }} current-page {{ end }}"
           activeclass="current-page"
         >

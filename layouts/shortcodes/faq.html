@@ -34,16 +34,16 @@
 
   {{ range $questions }}
 
-  {{ $q := (print "faq." . )}}
-  {{ $qa := (print "faq." . "_answer" )}}
+    {{ $q := (print "faq." . )}}
+    {{ $qa := (print "faq." . "_answer" )}}
 
-  <h2>
-    {{ i18n $q }}
-  </h2>
+    <h2>
+      {{ i18n $q }}
+    </h2>
 
-  <p>
-    {{ i18n $qa }}
-  </p>
+    <p>
+      {{ i18n $qa }}
+    </p>
 
   {{ end }}
 

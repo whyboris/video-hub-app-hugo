@@ -84,7 +84,7 @@
     "free": "חינם",
     "limited": "(hub) מוגבל ל -50 סרטונים לכל רכזת",
     "paying": "משלמים",
-    "paying_text": "כל התשלומים מעובדים על ידי {intl_stripe} או {intl_paypal} כאשר תהליך התשלום מטופל על ידי {intl_chec}.",
+    "paying_text": "כל התשלומים מעובדים על ידי Stripe",
     "portable": "נייד",
     "title": "הורדה",
     "unlimited": "ללא הגבלה",

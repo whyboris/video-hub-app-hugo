@@ -1,29 +1,26 @@
 {
   "about": {
-    "bio": "Boris je webový vývojář pracující ve Forbesu. Video Hub App je vedlejší projekt vytvořený pomocí Electron a Angular. {intl_donated} každého prodeje tohoto softwaru je věnováno {intl_amf}, nejlépe hodnocené charitativní organizaci {intl_givewell}.",
+    "bio": "Boris vytvořil aplikaci Video Hub s Electron a Angular. Díky minulým nákupům věnoval Boris více než {intl_donated} organizaci {intl_amf}, nejlépe hodnocené charitativní organizaci {intl_givewell}.",
     "creator": "Tvůrce",
-    "p1": "Dary jdou na {intl_amf} (AMF), protože se jedná o nejlépe hodnocenou charitu od {intl_givewell}, nezávislého hodnotitele charity. Každé 2 $ poskytnuté AMF chrání dva lidi před malárií po dobu 3-4 let.",
-    "p2": "Boris od roku 2011 poskytuje nejméně 10% svého příjmu nejefektivnějším charitativním organizacím (viz {intl_givewell}). Prodej z tohoto softwaru poskytne další dary jeho oblíbené charitě.",
+    "p1": "Dary jdou organizaci {intl_amf} (AMF), protože jde o charitativní organizaci s nejvyšším hodnocením od nezávislého hodnotitele charitativních organizací {intl_givewell}. Každé 2 dolary poskytnuté AMF ochrání dva lidi před malárií po dobu 3-4 let.",
+    "p2": "Boris od roku 2011 dává nejméně 10 % svého příjmu nejhospodárnějším charitativním organizacím (viz {intl_givewell}). Prodeje tohoto softwaru byly uskutečněny navíc k jeho obvyklým darům na jeho oblíbenou charitu.",
     "title": "O",
     "whydonate": "Proč darovat?"
   },
   "blog": {
-    "all_news": "Všechny novinky:",
     "app_purchase": "nákup aplikace",
-    "btn_donation": "Historie daru",
-    "btn_release": "Historie vydání",
     "bugfixes": "Oprava chyb",
     "donated": "Celkem darováno",
     "donation_text": "{intl_donated} z každého nákupu putuje na {intl_amf}, nejlépe hodnocenou charitu od {intl_givewell}.",
-    "donations": "Dary:",
     "features": "Funkce",
     "read_more": "Přečtěte si více",
     "receipt": "účtenka",
     "released": "propuštěn",
     "releases": "Zprávy:",
     "reviews": "Některé recenze",
-    "updated": "aktualizováno",
-    "version": "Nejnovější verze"
+    "version": "Nejnovější verze",
+    "latest": "Minulé roky byly pro mě velmi zaneprázdněné, ale hodlám obnovit vývoj VHA na začátku roku 2025.",
+    "since": "od"
   },
   "carousel": {
     "and_more": "... a více",
@@ -66,14 +63,14 @@
     "heading": "Dotazy? Komentáře? Budoucí žádost? Hlášení chyb?",
     "lostlink": "Ztratil jsem odkaz ke stažení",
     "message": "Zpráva",
-    "other": "jiný",
     "reason": "Vyberte prosím důvod pro kontaktování:",
     "request": "Budoucí žádost",
-    "title": "Kontakt"
+    "title": "Kontakt",
+    "misc": "Ostatní"
   },
   "download": {
     "after": "Po zakoupení",
-    "after_text": "Budete přesměrováni na stránku ke stažení a e-mailem dostanete odkaz na stažení. Po dobu alespoň jednoho roku od původního nákupu si budete moci kdykoli stáhnout nejnovější verzi softwaru. Pokud odkaz ztratíte, kontaktujte mě.",
+    "after_text": "E-mailem vám budou zaslány odkazy ke stažení VHA. Pokud odkaz nedorazí, použijte prosím kontaktní formulář a já vám odkazy pošlu e-mailem ručně.",
     "award": "cena",
     "buy": "Kup nyní",
     "buy1": "Neomezený počet videí",
@@ -87,7 +84,7 @@
     "free": "Volný, uvolnit",
     "limited": "Omezeno na 50 videí na hub",
     "paying": "Placení",
-    "paying_text": "Všechny platby zpracovává {intl_stripe} nebo {intl_paypal}, přičemž proces platby zpracovává {intl_chec}.",
+    "paying_text": "Všechny platby zpracovává Stripe",
     "portable": "Přenosný",
     "title": "Stažení",
     "unlimited": "Neomezený",
@@ -134,8 +131,8 @@
     "title": "Často kladené otázky FAQ"
   },
   "general": {
-    "description": "Procházejte, vyhledávejte a organizujte svá videa",
-    "title": "Aplikace Video Hub"
+    "title": "Aplikace Video Hub",
+    "about": "Aplikace Video Hub je software, který vám pomůže procházet, vyhledávat a organizovat vaše videa"
   },
   "givewell": {
     "q1": "Zaměřte se na program s vynikajícími důkazy o účinnosti a nákladové efektivnosti.",
@@ -318,5 +315,21 @@
     "linkdescription": "Chcete-li si stáhnout aktualizace v budoucnu: v e-mailu byste měli vidět objednávku „Ref: #“, kterou můžete použít ke stažení nejnovější verze z tohoto webu:",
     "thankyoutext": "Děkujeme, že jste si zakoupili aplikaci Video Hub. Do několika minut byste měli dostat e-mail s odkazy na stahování.",
     "title": "Děkuji za Váš nákup"
+  },
+  "titles": {
+    "about": "O",
+    "about_description": "O aplikaci Video Hub a jejím tvůrci",
+    "blog": "Blog",
+    "blog_description": "Blog pro aplikaci Video Hub",
+    "contact": "Kontakt",
+    "contact_description": "Kontaktujte tvůrce aplikace Video Hub s dotazy, komentáři nebo chybami",
+    "download": "Stáhnout",
+    "download_description": "Stáhněte si demo aplikace Video Hub nebo si zakupte software",
+    "faq": "Často kladené otázky",
+    "faq_description": "Nejčastější dotazy k aplikaci Video Hub",
+    "guide": "Uživatelská příručka",
+    "guide_description": "Uživatelská příručka pro aplikaci Video Hub",
+    "share": "Podíl",
+    "share_description": "Sdílejte aplikaci Video Hub s ostatními na svých platformách sociálních médií"
   }
 }

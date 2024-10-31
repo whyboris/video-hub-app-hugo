@@ -1,29 +1,26 @@
 {
   "about": {
-    "bio": "Boris, Forbes'ta çalışan bir web geliştiricisidir. Video Hub Uygulaması Electron ve Angular ile oluşturulmuş bir yan projedir. Bu yazılımın her satışının {intl_donated} kadarı, {intl_givewell} tarafından en çok oy alan bir hayır kurumu olan {intl_amf} 'e bağışlanıyor.",
+    "bio": "Boris, Electron ve Angular ile Video Hub Uygulaması'nı yarattı. Geçmişteki satın alımları sayesinde Boris, {intl_givewell} tarafından en iyi derecelendirilen bir yardım kuruluşu olan {intl_amf}'ye {intl_donated}'den fazla bağışta bulundu.",
     "creator": "Yaratıcısı",
-    "p1": "Bağışlar, bağımsız bir hayır kurumu değerlendiricisi olan {intl_givewell} tarafından en yüksek puan alan bir hayır kurumu olduğu için {intl_amf} (AMF) 'ye gider. AMF'ye verilen her 2 dolar, iki kişiyi 3-4 yıl boyunca sıtmadan korur.",
-    "p2": "Boris, 2011'den beri gelirinin en az% 10'unu en uygun maliyetli hayır kurumlarına veriyor (bkz. {İntl_givewell}). Bu yazılımdan yapılan satışlar, en sevdiği hayır kurumuna ek bağışlar sağlayacaktır.",
+    "p1": "Bağışlar {intl_amf}'ye (AMF) gidiyor çünkü bağımsız bir yardım kuruluşu değerlendiricisi olan {intl_givewell} tarafından en iyi derecelendirilen yardım kuruluşu. AMF'ye verilen her 2$ iki kişiyi 3-4 yıl boyunca sıtmadan koruyor.",
+    "p2": "Boris, 2011'den beri gelirinin en az %10'unu en uygun maliyetli hayır kurumlarına (bkz. {intl_givewell}) bağışlıyor. Bu yazılımdan elde ettiği satışlar, en sevdiği hayır kurumuna yaptığı olağan bağışlara ek olarak yapılıyordu.",
     "title": "hakkında",
     "whydonate": "Neden bağış yapmalısınız?"
   },
   "blog": {
-    "all_news": "Bütün haberler:",
     "app_purchase": "uygulama satın alma",
-    "btn_donation": "Bağış geçmişi",
-    "btn_release": "Sürüm geçmişi",
     "bugfixes": "Hata düzeltmeleri",
     "donated": "Toplam bağış",
     "donation_text": "Her satın alma işleminden {intl_donated}, {intl_givewell} tarafından en beğenilen bir hayır kurumu olan {intl_amf} 'e gidiyor.",
-    "donations": "Bağışlar:",
     "features": "Özellikleri",
     "read_more": "Daha fazla oku",
     "receipt": "fiş",
     "released": "yayınlandı",
     "releases": "Salıverme:",
     "reviews": "Bazı incelemeler",
-    "updated": "güncellenmiş",
-    "version": "En son sürüm"
+    "version": "En son sürüm",
+    "latest": "Son yıllar benim için oldukça yoğun geçti, ancak 2025 yılı başlarında VHA geliştirmeye devam etmeyi planlıyorum.",
+    "since": "o zamandan beri"
   },
   "carousel": {
     "and_more": "... ve dahası",
@@ -66,14 +63,14 @@
     "heading": "Sorular? Yorumlar? Özellik isteği? Hata raporları?",
     "lostlink": "İndirme bağlantımı kaybettim",
     "message": "İleti",
-    "other": "Diğer",
     "reason": "Lütfen ulaşma nedeninizi seçin:",
     "request": "Özellik isteği",
-    "title": "İletişim"
+    "title": "İletişim",
+    "misc": "Diğer"
   },
   "download": {
     "after": "Satın aldıktan sonra",
-    "after_text": "İndirme sayfanıza yönlendirilecek ve indirme bağlantısı için e-posta ile gönderileceksiniz. İlk satın alma işleminizden itibaren en az bir yıl boyunca, yazılımın en son sürümünü istediğiniz zaman indirebilirsiniz. Bağlantıyı kaybederseniz, benimle iletişime geçmeniz yeterlidir.",
+    "after_text": "VHA'yı indirmek için e-postayla bağlantılar gönderilecektir. Bağlantı gelmezse lütfen iletişim sayfası formunu kullanın ve bağlantıları size manuel olarak e-postayla göndereceğim.",
     "award": "ödül",
     "buy": "Şimdi al",
     "buy1": "Sınırsız videolar",
@@ -87,7 +84,7 @@
     "free": "Bedava",
     "limited": "Hub başına 50 videoyla sınırlıdır",
     "paying": "Ödeme",
-    "paying_text": "Tüm ödemeler {intl_stripe} veya {intl_paypal} tarafından işlenir ve ödeme işlemi {intl_chec} tarafından gerçekleştirilir.",
+    "paying_text": "Tüm ödemeler Stripe tarafından işlenir",
     "portable": "Taşınabilir",
     "title": "İndir",
     "unlimited": "Sınırsız",
@@ -134,8 +131,8 @@
     "title": "Sıkça Sorulan Sorular | SSS"
   },
   "general": {
-    "description": "Videolarınıza göz atın, arayın ve düzenleyin",
-    "title": "Video Hub Uygulaması"
+    "title": "Video Hub Uygulaması",
+    "about": "Video Hub Uygulaması, videolarınıza göz atmanıza, arama yapmanıza ve onları düzenlemenize yardımcı olan bir yazılımdır"
   },
   "givewell": {
     "q1": "Etkili ve uygun maliyetli olduğuna dair mükemmel kanıtlara sahip bir programa odaklanın.",
@@ -318,5 +315,21 @@
     "linkdescription": "To download updates in the future: in the email you should see an order 'Ref: #' which you can use to download the latest version from this website:",
     "thankyoutext": "Thank you for purchasing Video Hub App. You should receive an email with the download links within a few minutes.",
     "title": "Thank you for your purchase"
+  },
+  "titles": {
+    "about": "Hakkında",
+    "about_description": "Video Hub Uygulaması ve yaratıcısı hakkında",
+    "blog": "Blog",
+    "blog_description": "Video Hub Uygulaması için Blog",
+    "contact": "Temas etmek",
+    "contact_description": "Sorularınız, yorumlarınız veya hatalarınız için Video Hub Uygulamasının yaratıcısıyla iletişime geçin",
+    "download": "İndirmek",
+    "download_description": "Video Hub Uygulaması demosunu indirin veya yazılım satın alın",
+    "faq": "Sıkça Sorulan Sorular",
+    "faq_description": "Video Hub Uygulaması için Sıkça Sorulan Sorular",
+    "guide": "Kullanıcı Kılavuzu",
+    "guide_description": "Video Hub Uygulaması için Kullanıcı Kılavuzu",
+    "share": "Paylaşmak",
+    "share_description": "Video Hub Uygulamasını sosyal medya platformlarınızda başkalarıyla paylaşın"
   }
 }

@@ -1,29 +1,26 @@
 {
   "about": {
-    "bio": "Boris adalah pembangun web yang bekerja di Forbes. Aplikasi Hub Video adalah projek sampingan yang dibuat dengan Elektron dan Sudut. {intl_donated} setiap penjualan perisian ini disumbangkan kepada {intl_amf}, sebuah badan amal yang diberi nilai tertinggi oleh {intl_givewell}.",
+    "bio": "Boris mencipta Apl Hab Video dengan Elektron dan Sudut. Terima kasih kepada pembelian yang lalu, Boris menderma lebih daripada {intl_donated} kepada {intl_amf}, sebuah badan amal yang mendapat penilaian tertinggi oleh {intl_givewell}.",
     "creator": "Pencipta",
-    "p1": "Sumbangan diberikan kepada {intl_amf} (AMF) kerana ia adalah badan amal yang diberi nilai tertinggi oleh {intl_givewell}, penilai amal bebas. Setiap $ 2 yang diberikan kepada AMF melindungi dua orang dari malaria selama 3-4 tahun.",
-    "p2": "Boris telah memberikan sekurang-kurangnya 10% dari pendapatannya kepada badan amal yang paling menjimatkan (lihat {intl_givewell}) sejak tahun 2011. Penjualan dari perisian ini akan memberikan sumbangan tambahan kepada badan amal kegemarannya.",
+    "p1": "Derma disalurkan kepada {intl_amf} (AMF) kerana ia adalah badan amal yang mendapat penilaian tertinggi oleh {intl_givewell}, penilai amal bebas. Setiap $2 yang diberikan kepada AMF melindungi dua orang daripada malaria selama 3-4 tahun.",
+    "p2": "Boris telah memberikan sekurang-kurangnya 10% daripada pendapatannya kepada badan amal yang paling menjimatkan kos (lihat {intl_givewell}) sejak 2011. Jualan daripada perisian ini dibuat sebagai tambahan kepada derma biasanya kepada badan amal kegemarannya.",
     "title": "Mengenai",
     "whydonate": "Mengapa menderma?"
   },
   "blog": {
-    "all_news": "Semua berita:",
     "app_purchase": "pembelian aplikasi",
-    "btn_donation": "Sejarah sumbangan",
-    "btn_release": "Sejarah pelepasan",
     "bugfixes": "Pembetulan pepijat",
     "donated": "Jumlah yang disumbangkan",
     "donation_text": "{intl_donated} dari setiap pembelian menuju ke {intl_amf}, sebuah badan amal yang diberi nilai tertinggi oleh {intl_givewell}.",
-    "donations": "Derma:",
     "features": "ciri-ciri",
     "read_more": "Baca lebih lanjut",
     "receipt": "resit",
     "released": "dilepaskan",
     "releases": "Siaran:",
     "reviews": "Beberapa ulasan",
-    "updated": "dikemas kini",
-    "version": "Versi terkini"
+    "version": "Versi terkini",
+    "latest": "Tahun-tahun lepas sangat sibuk untuk saya, tetapi saya berhasrat untuk menyambung semula pembangunan VHA pada awal 2025.",
+    "since": "sejak"
   },
   "carousel": {
     "and_more": "... dan banyak lagi",
@@ -66,14 +63,14 @@
     "heading": "Soalan? Komen? Permintaan ciri? Laporan pepijat?",
     "lostlink": "Hilang pautan muat turun saya",
     "message": "Mesej",
-    "other": "Yang lain",
     "reason": "Sila pilih alasan untuk menghubungi:",
     "request": "Permintaan ciri",
-    "title": "Hubungi"
+    "title": "Hubungi",
+    "misc": "Lain-lain"
   },
   "download": {
     "after": "Selepas pembelian",
-    "after_text": "Anda akan dibawa ke halaman muat turun anda serta menghantar pautan ke muat turun melalui e-mel. Sekurang-kurangnya setahun dari pembelian awal anda, anda dapat memuat turun perisian versi terkini pada bila-bila masa. Sekiranya anda kehilangan pautan, hubungi saya.",
+    "after_text": "Anda akan dihantar melalui e-mel pautan untuk memuat turun VHA. Jika pautan tidak sampai, sila gunakan borang halaman hubungan dan saya akan menghantar pautan melalui e-mel kepada anda secara manual.",
     "award": "penghargaan",
     "buy": "Beli sekarang",
     "buy1": "Video tanpa had",
@@ -87,7 +84,7 @@
     "free": "Percuma",
     "limited": "Terhad untuk 50 video setiap hab",
     "paying": "Membayar",
-    "paying_text": "Semua pembayaran diproses oleh {intl_stripe} atau {intl_paypal} dengan proses pembayaran dikendalikan oleh {intl_chec}.",
+    "paying_text": "Semua pembayaran diproses oleh Stripe",
     "portable": "Mudah alih",
     "title": "Muat turun",
     "unlimited": "Tanpa had",
@@ -134,8 +131,8 @@
     "title": "Soalan Lazim | Soalan Lazim"
   },
   "general": {
-    "description": "Semak imbas, cari, dan susun video anda",
-    "title": "Aplikasi Hab Video"
+    "title": "Aplikasi Hab Video",
+    "about": "Video Hub App ialah perisian yang membantu anda menyemak imbas, mencari dan menyusun video anda"
   },
   "givewell": {
     "q1": "Fokus pada program dengan bukti keberkesanan dan keberkesanan kos yang sangat baik.",
@@ -318,5 +315,21 @@
     "linkdescription": "Untuk memuat turun kemas kini pada masa akan datang: dalam e-mel anda akan melihat pesanan 'Ref: #' yang boleh anda gunakan untuk memuat turun versi terbaru dari laman web ini:",
     "thankyoutext": "Terima kasih kerana membeli Aplikasi Hub Video. Anda akan menerima e-mel dengan pautan muat turun dalam beberapa minit.",
     "title": "Terima kasih atas pembelian anda"
+  },
+  "titles": {
+    "about": "Tentang",
+    "about_description": "Perihal Video Hub App dan penciptanya",
+    "blog": "Blog",
+    "blog_description": "Blog untuk Apl Hab Video",
+    "contact": "Kenalan",
+    "contact_description": "Hubungi pencipta Apl Hab Video dengan soalan, ulasan atau pepijat",
+    "download": "Muat turun",
+    "download_description": "Muat turun perisian Video Hub App demo atau beli",
+    "faq": "Soalan Lazim",
+    "faq_description": "Soalan Lazim untuk Apl Hab Video",
+    "guide": "Panduan Pengguna",
+    "guide_description": "Panduan Pengguna untuk Apl Hab Video",
+    "share": "Kongsi",
+    "share_description": "Kongsi Apl Hab Video dengan orang lain pada platform media sosial anda"
   }
 }

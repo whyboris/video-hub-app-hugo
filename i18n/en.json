@@ -13,6 +13,7 @@
     "donated": "Total donated",
     "donation_text": "A portion from purchases goes to the {intl_amf}, a top-rated charity by {intl_givewell}.",
     "features": "Features",
+    "latest": "Last years were very busy for me, but I intend to resume VHA development in early 2025.",
     "read_more": "Read more",
     "receipt": "receipt",
     "released": "released",
@@ -69,7 +70,7 @@
   },
   "download": {
     "after": "After purchase",
-    "after_text": "You will be taken to your download page as well as emailed a link to the download. For at least a year from your initial purchase you will be able to download the latest version of the software at any time. If you lose the link, just contact me, or go here:",
+    "after_text": "You will be emailed links to download VHA. If the link does not arrive, please use the contact page form and I will email you the links manually.",
     "award": "award",
     "buy": "Buy Now",
     "buy1": "Unlimited videos",
@@ -83,7 +84,7 @@
     "free": "Free",
     "limited": "Limited to 50 videos per hub",
     "paying": "Paying",
-    "paying_text": "All payments are processed by {intl_stripe} or {intl_paypal} with the checkout process handled by {intl_chec}.",
+    "paying_text": "All payments are processed by Stripe",
     "portable": "Portable",
     "title": "Download",
     "unlimited": "Unlimited",
@@ -298,22 +299,6 @@
     "organize_videos": "organize videos",
     "video_organizer": "video organizer"
   },
-  "titles": {
-    "about": "About",
-    "about_description": "About Video Hub App and its creator",
-    "blog": "Blog",
-    "blog_description": "Blog for Video Hub App",
-    "contact": "Contact",
-    "contact_description": "Contact creator of Video Hub App with questions, comments, or bugs",
-    "download": "Download",
-    "download_description": "Download Video Hub App demo or purchase software",
-    "faq": "Frequently Asked Questions",
-    "faq_description": "Frequently Asked Questions for Video Hub App",
-    "guide": "User Guide",
-    "guide_description": "User Guide for Video Hub App",
-    "share": "Share",
-    "share_description": "Share Video Hub App with others on your social media platforms"
-  },
   "share": {
     "appreciate": "I appreciate any donations",
     "buycoffee": "Buy me a coffee",
@@ -330,5 +315,21 @@
     "linkdescription": "To download updates in the future: in the email you should see an order 'Ref: #' which you can use to download the latest version from this website:",
     "thankyoutext": "Thank you for purchasing Video Hub App. You should receive an email with the download links within a few minutes. If the automated email does not arrive, please use the contact form on this website.",
     "title": "Thank you for your purchase"
+  },
+  "titles": {
+    "about": "About",
+    "about_description": "About Video Hub App and its creator",
+    "blog": "Blog",
+    "blog_description": "Blog for Video Hub App",
+    "contact": "Contact",
+    "contact_description": "Contact creator of Video Hub App with questions, comments, or bugs",
+    "download": "Download",
+    "download_description": "Download Video Hub App demo or purchase software",
+    "faq": "Frequently Asked Questions",
+    "faq_description": "Frequently Asked Questions for Video Hub App",
+    "guide": "User Guide",
+    "guide_description": "User Guide for Video Hub App",
+    "share": "Share",
+    "share_description": "Share Video Hub App with others on your social media platforms"
   }
 }

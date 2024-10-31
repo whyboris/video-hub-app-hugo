@@ -1,29 +1,26 @@
 {
   "about": {
-    "bio": "Boris is een webontwikkelaar die bij Forbes werkt. Video Hub-app is een zijproject gemaakt met Electron en Angular. {intl_donated} van elke verkoop van deze software wordt gedoneerd aan de {intl_amf}, een best beoordeelde liefdadigheidsinstelling door {intl_givewell}.",
+    "bio": "Boris creëerde Video Hub App met Electron en Angular. Dankzij eerdere aankopen doneerde Boris meer dan {intl_donated} aan de {intl_amf}, een top-rated charity door {intl_givewell}.",
     "creator": "Maker van",
-    "p1": "Donaties gaan naar de {intl_amf} (AMF) omdat het een best beoordeelde liefdadigheidsinstelling is door {intl_givewell}, een onafhankelijke liefdadigheidsbeoordelaar. Elke $ 2 die aan AMF wordt gegeven, beschermt twee mensen gedurende 3-4 jaar tegen malaria.",
-    "p2": "Boris schenkt sinds 2011 ten minste 10% van zijn inkomen aan de meest kosteneffectieve goede doelen (zie {intl_givewell}). De verkoop van deze software levert extra donaties op voor zijn favoriete goede doel.",
+    "p1": "Donaties gaan naar de {intl_amf} (AMF) omdat het een top-rated charity is door {intl_givewell}, een onafhankelijke liefdadigheidsbeoordelaar. Elke $2 die aan AMF wordt gegeven, beschermt twee mensen tegen malaria gedurende 3-4 jaar.",
+    "p2": "Boris doneert sinds 2011 minimaal 10% van zijn inkomen aan de meest kosteneffectieve goede doelen (zie {intl_givewell}). De verkopen via deze software zijn een aanvulling op zijn gebruikelijke donaties aan zijn favoriete goede doel.",
     "title": "Over",
     "whydonate": "Waarom doneren?"
   },
   "blog": {
-    "all_news": "Al het nieuws:",
     "app_purchase": "app-aankoop",
-    "btn_donation": "Donatiegeschiedenis",
-    "btn_release": "Release geschiedenis",
     "bugfixes": "Bugfixes",
     "donated": "Totaal gedoneerd",
     "donation_text": "{intl_donated} van elke aankoop gaat naar de {intl_amf}, een best beoordeelde liefdadigheidsinstelling door {intl_givewell}.",
-    "donations": "Donaties:",
     "features": "Kenmerken",
     "read_more": "Lees verder",
     "receipt": "bon",
     "released": "vrijgelaten",
     "releases": "Releases:",
     "reviews": "Enkele recensies",
-    "updated": "bijgewerkt",
-    "version": "Laatste versie"
+    "version": "Laatste versie",
+    "latest": "De afgelopen jaren waren erg druk voor mij, maar ik ben van plan om de VHA-ontwikkeling begin 2025 weer op te pakken.",
+    "since": "sinds"
   },
   "carousel": {
     "and_more": "... en meer",
@@ -66,14 +63,14 @@
     "heading": "Vragen? Opmerkingen? Functieverzoek? Foutmeldingen?",
     "lostlink": "Mijn downloadlink verloren",
     "message": "Bericht",
-    "other": "Andere",
     "reason": "Kies een reden om contact op te nemen:",
     "request": "Functieverzoek",
-    "title": "Contact"
+    "title": "Contact",
+    "misc": "Ander"
   },
   "download": {
     "after": "Na aankoop",
-    "after_text": "U wordt naar uw downloadpagina geleid en een link naar de download gemaild. Gedurende minimaal een jaar vanaf uw eerste aankoop kunt u op elk moment de nieuwste versie van de software downloaden. Als je de link kwijtraakt, neem dan contact met me op of ga hier:",
+    "after_text": "U ontvangt e-mails met links om VHA te downloaden. Als de link niet aankomt, gebruik dan het formulier op de contactpagina en ik zal u de links handmatig e-mailen.",
     "award": "prijs",
     "buy": "Koop nu",
     "buy1": "Onbeperkt aantal video's",
@@ -87,7 +84,7 @@
     "free": "Vrij",
     "limited": "Beperkt tot 50 video's per hub",
     "paying": "Betalen",
-    "paying_text": "Alle betalingen worden verwerkt door {intl_stripe} of {intl_paypal} en het afrekenproces wordt afgehandeld door {intl_chec}.",
+    "paying_text": "Alle betalingen worden verwerkt door Stripe",
     "portable": "Draagbaar",
     "title": "Downloaden",
     "unlimited": "Onbeperkt",
@@ -134,8 +131,8 @@
     "title": "Veelgestelde vragen | FAQ"
   },
   "general": {
-    "description": "Blader, zoek en orden uw video's",
-    "title": "Video Hub-app"
+    "title": "Video Hub-app",
+    "about": "Video Hub App is software waarmee u uw video's kunt doorbladeren, zoeken en ordenen"
   },
   "givewell": {
     "q1": "Concentreer u op een programma met uitstekend bewijs van effectiviteit en kosteneffectiviteit.",
@@ -318,5 +315,21 @@
     "linkdescription": "Om updates in de toekomst te downloaden: in de e-mail zou u een order 'Ref: #' moeten zien die u kunt gebruiken om de nieuwste versie van deze website te downloaden:",
     "thankyoutext": "Bedankt voor het aanschaffen van de Video Hub-app. U ontvangt binnen enkele minuten een e-mail met de downloadlinks.",
     "title": "Dank voor uw aankoop"
+  },
+  "titles": {
+    "about": "Over",
+    "about_description": "Over Video Hub App en zijn maker",
+    "blog": "Blog",
+    "blog_description": "Blog voor Video Hub-app",
+    "contact": "Contact",
+    "contact_description": "Neem contact op met de maker van de Video Hub-app als u vragen, opmerkingen of bugs heeft",
+    "download": "Download",
+    "download_description": "Download de Video Hub App-demo of koop software",
+    "faq": "Veelgestelde vragen",
+    "faq_description": "Veelgestelde vragen over de Video Hub-app",
+    "guide": "Gebruikershandleiding",
+    "guide_description": "Gebruikershandleiding voor Video Hub-app",
+    "share": "Deel",
+    "share_description": "Deel de Video Hub-app met anderen op uw sociale-mediaplatforms"
   }
 }

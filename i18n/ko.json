@@ -1,29 +1,26 @@
 {
   "about": {
-    "bio": "Boris는 Forbes에서 일하는 웹 개발자입니다. Video Hub App은 Electron과 Angular로 만든 사이드 프로젝트입니다. 이 소프트웨어의 모든 판매 중 {intl_donated}는 {intl_givewell}의 최고 등급 자선 단체 인 {intl_amf}에 기부됩니다.",
+    "bio": "Boris는 Electron과 Angular로 Video Hub 앱을 만들었습니다. 지난 구매 덕분에 Boris는 {intl_givewell}의 최고 평점 자선 단체인 {intl_amf}에 {intl_donated} 이상을 기부했습니다.",
     "creator": "제작자",
-    "p1": "기부금은 독립 자선 평가자 인 {intl_givewell}의 최고 등급 자선 단체이므로 {intl_amf} (AMF)로 전달됩니다. AMF에 2 달러를 주면 3 ~ 4 년 동안 두 사람을 말라리아로부터 보호합니다.",
-    "p2": "Boris는 2011 년부터 수입의 10 % 이상을 가장 비용 효율적인 자선 단체 ({intl_givewell} 참조)에 기부하고 있습니다.이 소프트웨어의 판매는 그가 좋아하는 자선 단체에 추가 기부금을 제공 할 것입니다.",
+    "p1": "기부금은 {intl_amf}(AMF)로 전달되는데, 이는 독립 자선 단체 평가 기관인 {intl_givewell}에서 최고 평가를 받은 자선 단체이기 때문입니다. AMF에 기부된 2달러는 3~4년 동안 2명을 말라리아로부터 보호합니다.",
+    "p2": "보리스는 2011년부터 자신의 수입의 최소 10%를 가장 비용 효율적인 자선 단체({intl_givewell} 참조)에 기부해 왔습니다. 이 소프트웨어 판매 수익은 그가 좋아하는 자선 단체에 기부하는 평소의 수익에 더해 발생했습니다.",
     "title": "약",
     "whydonate": "왜 기부합니까?"
   },
   "blog": {
-    "all_news": "모든 뉴스 :",
     "app_purchase": "앱 구매",
-    "btn_donation": "기부 내역",
-    "btn_release": "출시 내역",
     "bugfixes": "버그 수정",
     "donated": "총 기부",
     "donation_text": "모든 구매의 {intl_donated}는 {intl_givewell}의 최고 등급 자선 단체 인 {intl_amf}로 전달됩니다.",
-    "donations": "기부 :",
     "features": "풍모",
     "read_more": "더 읽어보기",
     "receipt": "영수증",
     "released": "출시",
     "releases": "릴리스 :",
     "reviews": "일부 리뷰",
-    "updated": "업데이트 됨",
-    "version": "최신 버전"
+    "version": "최신 버전",
+    "latest": "작년은 정말 바빴지만, 2025년 초에 VHA 개발을 재개할 계획입니다.",
+    "since": "~부터"
   },
   "carousel": {
     "and_more": "... 그리고 더",
@@ -66,14 +63,14 @@
     "heading": "질문이 있으십니까? 코멘트? 기능 요청? 버그 신고?",
     "lostlink": "다운로드 링크 분실",
     "message": "메시지",
-    "other": "다른",
     "reason": "연락하는 이유를 선택하세요.",
     "request": "기능 요청",
-    "title": "접촉"
+    "title": "접촉",
+    "misc": "다른"
   },
   "download": {
     "after": "구매 후",
-    "after_text": "다운로드 페이지로 이동하고 다운로드 링크가 이메일로 전송됩니다. 최초 구매 일로부터 최소 1 년 동안 언제든지 최신 버전의 소프트웨어를 다운로드 할 수 있습니다. 링크를 잃어버린 경우 저에게 연락하십시오.",
+    "after_text": "VHA를 다운로드할 수 있는 링크가 이메일로 전송됩니다. 링크가 도착하지 않으면 연락처 페이지 양식을 사용하세요. 링크를 수동으로 이메일로 보내드리겠습니다.",
     "award": "장학금",
     "buy": "지금 구매",
     "buy1": "무제한 동영상",
@@ -87,7 +84,7 @@
     "free": "비어 있는",
     "limited": "허브 당 동영상 50 개로 제한",
     "paying": "지불",
-    "paying_text": "모든 결제는 {intl_stripe} 또는 {intl_paypal}에 의해 처리되며 결제 프로세스는 {intl_chec}에서 처리됩니다.",
+    "paying_text": "모든 결제는 Stripe를 통해 처리됩니다.",
     "portable": "가지고 다닐 수 있는",
     "title": "다운로드",
     "unlimited": "제한 없는",
@@ -134,8 +131,8 @@
     "title": "자주 묻는 질문 | 자주하는 질문"
   },
   "general": {
-    "description": "비디오 탐색, 검색 및 구성",
-    "title": "Video Hub 앱"
+    "title": "Video Hub 앱",
+    "about": "Video Hub 앱은 비디오를 탐색, 검색 및 구성하는 데 도움이 되는 소프트웨어입니다."
   },
   "givewell": {
     "q1": "효과 성과 비용 효율성에 대한 탁월한 증거가있는 프로그램에 집중하십시오.",
@@ -318,5 +315,21 @@
     "linkdescription": "향후 업데이트를 다운로드하려면이 웹 사이트에서 최신 버전을 다운로드하는 데 사용할 수있는 'Ref : #'주문이 이메일에 표시되어야합니다.",
     "thankyoutext": "Video Hub 앱을 구입 해주셔서 감사합니다. 몇 분 내에 다운로드 링크가 포함 된 이메일을 받게됩니다.",
     "title": "구입 주셔서 감사합니다"
+  },
+  "titles": {
+    "about": "에 대한",
+    "about_description": "Video Hub 앱과 그 제작자에 대하여",
+    "blog": "블로그",
+    "blog_description": "비디오 허브 앱 블로그",
+    "contact": "연락하다",
+    "contact_description": "질문, 의견 또는 버그가 있는 경우 Video Hub 앱 제작자에게 문의하세요.",
+    "download": "다운로드",
+    "download_description": "Video Hub 앱 데모를 다운로드하거나 소프트웨어를 구매하세요",
+    "faq": "자주 묻는 질문",
+    "faq_description": "비디오 허브 앱에 대한 자주 묻는 질문",
+    "guide": "사용자 가이드",
+    "guide_description": "비디오 허브 앱 사용자 가이드",
+    "share": "공유하다",
+    "share_description": "소셜 미디어 플랫폼에서 다른 사람들과 Video Hub 앱을 공유하세요"
   }
 }

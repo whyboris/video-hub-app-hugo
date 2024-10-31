@@ -1,29 +1,26 @@
 {
   "about": {
-    "bio": "Boris mai haɓaka yanar gizo ne wanda ke aiki a Forbes. Video Hub App shiri ne na gefe wanda aka kirkira tare da Electron da Angular. {intl_donated} na kowane siyarwar wannan software an bada gudummawar ne ga {intl_amf}, wata babbar kyauta ta {intl_givewell}.",
+    "bio": "Boris ya ƙirƙiri App Hub na Bidiyo tare da Electron da Angular. Godiya ga siyayyar da aka yi a baya, Boris ya ba da gudummawar sama da {intl_donated} ga {intl_amf}, babbar sadaka ta {intl_givewell}.",
     "creator": "Mahaliccin",
-    "p1": "Gudummawa suna zuwa ga {intl_amf} (AMF) saboda ita babbar kyauta ce ta {intl_givewell}, mai kimanta sadaka mai zaman kanta. Duk $ 2 da aka baiwa AMF na kare mutane biyu daga zazzabin cizon sauro na tsawon shekaru 3-4.",
-    "p2": "Boris yana bayar da aƙalla 10% na kuɗin shigarsa ga ƙungiyoyi masu saukin kuɗi (duba {intl_givewell}) tun a shekarar 2011. Tallace-tallace daga wannan software ɗin zai ba da ƙarin gudummawa ga ƙaunatacciyar sadakarsa.",
+    "p1": "Taimako na zuwa ga {intl_amf} (AMF) saboda babbar sadaka ce ta {intl_givewell}, mai tantance ayyukan agaji mai zaman kanta. Kowane $2 da aka bai wa AMF yana kare mutane biyu daga zazzabin cizon sauro na tsawon shekaru 3-4.",
+    "p2": "Boris ya kasance yana ba da aƙalla kashi 10% na kuɗin shiga ga ƙungiyoyin agaji mafi tsada (duba {intl_givewell}) tun 2011. An yi tallace-tallace daga wannan software baya ga gudummawar da ya saba bayarwa ga sadaka da ya fi so.",
     "title": "Game da",
     "whydonate": "Me ya sa ba da gudummawa?"
   },
   "blog": {
-    "all_news": "Duk labarai:",
     "app_purchase": "sayan app",
-    "btn_donation": "Tarihin taimako",
-    "btn_release": "Sakin tarihi",
     "bugfixes": "Gyaran bug",
     "donated": "Jimlar gudummawa",
     "donation_text": "{intl_donated} daga kowane siye zuwa {intl_amf}, wata babbar kyauta ce ta {intl_givewell}.",
-    "donations": "Gudummawa:",
     "features": "Fasali",
     "read_more": "Kara karantawa",
     "receipt": "rasit",
     "released": "saki",
     "releases": "Sakewa:",
     "reviews": "Wasu sake dubawa",
-    "updated": "sabunta",
-    "version": "Bugawa version"
+    "version": "Bugawa version",
+    "latest": "Shekarun da suka gabata sun shagaltu da ni sosai, amma ina da niyyar ci gaba da ci gaban VHA a farkon 2025.",
+    "since": "tun"
   },
   "carousel": {
     "and_more": "... da ƙari",
@@ -66,14 +63,14 @@
     "heading": "Tambayoyi? Sharhi? Neman fasali? Rahoton bug?",
     "lostlink": "Rasa hanyar dana sauke",
     "message": "Saƙo",
-    "other": "Sauran",
     "reason": "Da fatan za a zaɓi dalilin da ya sa za a miƙa hannu:",
     "request": "Neman fasali",
-    "title": "Saduwa"
+    "title": "Saduwa",
+    "misc": "Sauran"
   },
   "download": {
     "after": "Bayan sayan",
-    "after_text": "Za a kai ku zuwa shafin saukarwarku kamar yadda za a yi imel da hanyar haɗi don saukarwa. Aƙalla shekara guda daga farkon sayanka zaka sami damar zazzage sabon sigar software a kowane lokaci. Idan ka rasa hanyar haɗi, tuntuɓi ni kawai.",
+    "after_text": "Za a aiko muku da hanyoyin haɗin yanar gizo don saukar da VHA. Idan mahaɗin bai zo ba, da fatan za a yi amfani da fam ɗin shafin tuntuɓar kuma zan yi muku imel ɗin hanyoyin da hannu.",
     "award": "kyauta",
     "buy": "Saya yanzu",
     "buy1": "Unlimited bidiyo",
@@ -87,7 +84,7 @@
     "free": "Kyauta",
     "limited": "Iyakance ga bidiyo 50 a kowace cibiya",
     "paying": "Biya",
-    "paying_text": "Duk intanet ɗin ana sarrafa shi ta hanyar intl_stripe} ko kuma {intl_paypal} tare da aikin biya na {intl_chec}.",
+    "paying_text": "Ana sarrafa duk biyan kuɗi ta Stripe",
     "portable": "Fir",
     "title": "Zazzagewa",
     "unlimited": "Unlimited",
@@ -134,8 +131,8 @@
     "title": "Tambayoyi akai-akai | Tambayoyi"
   },
   "general": {
-    "description": "Binciko, bincika, kuma tsara bidiyon ku",
-    "title": "Video Hub App"
+    "title": "Video Hub App",
+    "about": "Video Hub App software ce da ke taimaka muku bincike, bincike, da tsara bidiyon ku"
   },
   "givewell": {
     "q1": "Mayar da hankali kan shirin tare da kyakkyawar shaidar tasiri da tsadar rayuwa.",
@@ -318,5 +315,21 @@
     "linkdescription": "Don saukar da sabuntawa nan gaba: a cikin imel ɗin ya kamata ku ga oda 'Ref: #' wanda zaku iya amfani da shi don saukar da sabon sigar daga wannan gidan yanar gizon:",
     "thankyoutext": "Na gode don siyan App Video Hub. Yakamata ku karɓi imel tare da hanyoyin saukarwa a cikin 'yan mintuna kaɗan.",
     "title": "Na gode da siyan ku"
+  },
+  "titles": {
+    "about": "Game da",
+    "about_description": "Game da Video Hub App da mahaliccin sa",
+    "blog": "Blog",
+    "blog_description": "Blog don App Hub na Bidiyo",
+    "contact": "Tuntuɓar",
+    "contact_description": "Tuntuɓi mahaliccin Bidiyo Hub App tare da tambayoyi, sharhi, ko kwari",
+    "download": "Zazzagewa",
+    "download_description": "Zazzage demo Hub App na Bidiyo ko siyan software",
+    "faq": "Tambayoyin da ake yawan yi",
+    "faq_description": "Tambayoyin da ake yawan yi don App Hub na Bidiyo",
+    "guide": "Jagorar Mai Amfani",
+    "guide_description": "Jagorar Mai Amfani don App Hub na Bidiyo",
+    "share": "Raba",
+    "share_description": "Raba App Hub na Bidiyo tare da wasu akan dandamalin kafofin watsa labarun ku"
   }
 }

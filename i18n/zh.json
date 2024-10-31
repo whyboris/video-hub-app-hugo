@@ -1,28 +1,23 @@
 {
   "about": {
-    "bio": "鲍里斯（Boris）是在《福布斯》工作的一名Web开发人员。 Video Hub App是使用Electron和Angular创建的附带项目。该软件每次销售的{intl_donated}都捐赠给{intl_givewell}最高评价的慈善机构{intl_amf}。",
+    "bio": "Boris 使用 Electron 和 Angular 创建了 Video Hub 应用。得益于过去的购买，Boris 向 {intl_givewell} 评选的顶级慈善机构 {intl_amf} 捐赠了超过 {intl_donated} 的款项。",
     "creator": "创作者",
-    "p1": "捐赠给{intl_amf}（AMF），因为它是独立慈善机构评估者{intl_givewell}最高评价的慈善机构。给予AMF的每$ 2美元可保护两个人免受疟疾侵害，持续3-4年。",
-    "p2": "自2011年以来，鲍里斯（Boris）至少将其收入的10％捐给最具成本效益的慈善机构（请参阅{intl_givewell}）。通过该软件的销售将向他最喜欢的慈善机构提供额外的捐款。",
+    "p1": "捐款将捐给{intl_amf} (AMF)，因为它是独立慈善评估机构{intl_givewell}评选出的顶级慈善机构。每捐给 AMF 2 美元，就能保护两个人免受疟疾困扰 3-4 年。",
+    "p2": "自 2011 年以来，鲍里斯一直将其收入的至少 10% 捐给最具成本效益的慈善机构（参见{intl_givewell}）。除了向他最喜欢的慈善机构进行通常的捐赠外，他还从这款软件的销售额中获得了收入。",
     "title": "关于",
     "whydonate": "为什么要捐款？"
   },
   "blog": {
-    "all_news": "所有新闻：",
     "app_purchase": "应用购买",
-    "btn_donation": "捐赠历史",
-    "btn_release": "发行历史",
     "bugfixes": "Bug修复",
     "donated": "捐赠总额",
     "donation_text": "{intl_donated}每次购买都会转到{intl_givewell}最高评价的慈善机构{intl_amf}。",
-    "donations": "捐款：",
     "features": "特征",
     "read_more": "阅读更多",
     "receipt": "收据",
     "released": "已发布",
     "releases": "发布：",
     "reviews": "一些评论",
-    "updated": "更新",
     "version": "最新版本"
   },
   "carousel": {
@@ -66,7 +61,6 @@
     "heading": "有什么问题吗注释？功能要求？错误报告？",
     "lostlink": "丢失了我的下载链接",
     "message": "信息",
-    "other": "其他",
     "reason": "请选择联系原因：",
     "request": "功能要求",
     "title": "联系"
@@ -134,7 +128,6 @@
     "title": "常见问题|常问问题"
   },
   "general": {
-    "description": "浏览，搜索和整理您的视频",
     "title": "视频中心应用"
   },
   "givewell": {
@@ -318,5 +311,6 @@
     "linkdescription": "以后要下载更新：在电子邮件中，您应该看到订单“ Ref：＃”，可用于从该网站下载最新版本：",
     "thankyoutext": "感谢您购买Video Hub App。您应该在几分钟之内收到一封包含下载链接的电子邮件。",
     "title": "感谢您的购买"
-  }
+  },
+  "titles": {}
 }

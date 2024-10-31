@@ -1,29 +1,26 @@
 {
   "about": {
-    "bio": "Boris là một nhà phát triển web làm việc tại Forbes. Ứng dụng Video Hub là một dự án phụ được tạo bằng Electron và Angular. {intl_donated} trong mỗi lần bán phần mềm này được quyên góp cho {intl_amf}, một tổ chức từ thiện được xếp hạng hàng đầu bởi {intl_givewell}.",
+    "bio": "Boris đã tạo ra Video Hub App với Electron và Angular. Nhờ các giao dịch mua trước đây, Boris đã quyên góp hơn {intl_donated} cho {intl_amf}, một tổ chức từ thiện được {intl_givewell} đánh giá cao nhất.",
     "creator": "Người tạo ra",
-    "p1": "Các khoản quyên góp sẽ được chuyển đến {intl_amf} (AMF) vì đây là tổ chức từ thiện được xếp hạng cao nhất bởi {intl_givewell}, một nhà đánh giá từ thiện độc lập. Mỗi 2 đô la được trao cho AMF sẽ bảo vệ hai người khỏi bệnh sốt rét trong 3-4 năm.",
-    "p2": "Boris đã dành ít nhất 10% thu nhập của mình cho các tổ chức từ thiện tiết kiệm chi phí nhất (xem {intl_givewell}) kể từ năm 2011. Doanh thu từ phần mềm này sẽ cung cấp thêm khoản đóng góp cho tổ chức từ thiện yêu thích của anh ấy.",
+    "p1": "Các khoản quyên góp sẽ được chuyển đến {intl_amf} (AMF) vì đây là tổ chức từ thiện được đánh giá cao nhất bởi {intl_givewell}, một tổ chức đánh giá từ thiện độc lập. Mỗi 2 đô la quyên góp cho AMF sẽ bảo vệ hai người khỏi bệnh sốt rét trong 3-4 năm.",
+    "p2": "Boris đã dành ít nhất 10% thu nhập của mình cho các tổ chức từ thiện tiết kiệm chi phí nhất (xem {intl_givewell}) kể từ năm 2011. Doanh số bán phần mềm này được tạo ra ngoài số tiền anh thường quyên góp cho tổ chức từ thiện mà anh yêu thích.",
     "title": "Trong khoảng",
     "whydonate": "Tại sao lại tặng?"
   },
   "blog": {
-    "all_news": "Tất cả tin tức:",
     "app_purchase": "mua ứng dụng",
-    "btn_donation": "Lịch sử quyên góp",
-    "btn_release": "Lịch sử phát hành",
     "bugfixes": "Sửa lỗi",
     "donated": "Tổng số tiền quyên góp",
     "donation_text": "{intl_donated} từ mọi giao dịch mua sẽ được chuyển đến {intl_amf}, một tổ chức từ thiện được xếp hạng hàng đầu bởi {intl_givewell}.",
-    "donations": "Quyên góp:",
     "features": "Đặc trưng",
     "read_more": "Đọc thêm",
     "receipt": "biên lai",
     "released": "phát hành",
     "releases": "Phát hành:",
     "reviews": "Một số nhận xét",
-    "updated": "cập nhật",
-    "version": "Phiên bản mới nhất"
+    "version": "Phiên bản mới nhất",
+    "latest": "Những năm gần đây tôi rất bận rộn, nhưng tôi dự định sẽ tiếp tục phát triển VHA vào đầu năm 2025.",
+    "since": "từ"
   },
   "carousel": {
     "and_more": "... và nhiều hơn nữa",
@@ -66,14 +63,14 @@
     "heading": "Câu hỏi? Bình luận? Yêu cầu tính năng? Báo cáo lỗi?",
     "lostlink": "Mất liên kết tải xuống của tôi",
     "message": "Thông điệp",
-    "other": "Khác",
     "reason": "Vui lòng chọn lý do để liên hệ:",
     "request": "Yêu cầu tính năng",
-    "title": "Tiếp xúc"
+    "title": "Tiếp xúc",
+    "misc": "Khác"
   },
   "download": {
     "after": "Sau khi mua",
-    "after_text": "Bạn sẽ được đưa đến trang tải xuống của mình cũng như được gửi qua email một liên kết để tải xuống. Trong ít nhất một năm kể từ lần mua đầu tiên, bạn sẽ có thể tải xuống phiên bản mới nhất của phần mềm bất kỳ lúc nào. Nếu bạn bị mất liên kết, chỉ cần liên hệ với tôi.",
+    "after_text": "Bạn sẽ nhận được email có liên kết để tải xuống VHA. Nếu liên kết không đến, vui lòng sử dụng biểu mẫu trang liên hệ và tôi sẽ gửi email cho bạn các liên kết theo cách thủ công.",
     "award": "giải thưởng",
     "buy": "Mua ngay",
     "buy1": "Video không giới hạn",
@@ -87,7 +84,7 @@
     "free": "Miễn phí",
     "limited": "Giới hạn 50 video cho mỗi trung tâm",
     "paying": "Thanh toán",
-    "paying_text": "Tất cả các khoản thanh toán được xử lý bởi {intl_stripe} hoặc {intl_paypal} với quy trình thanh toán do {intl_chec} xử lý.",
+    "paying_text": "Tất cả các khoản thanh toán được xử lý bởi Stripe",
     "portable": "Xách tay",
     "title": "Tải xuống",
     "unlimited": "Vô hạn",
@@ -134,8 +131,8 @@
     "title": "Câu hỏi thường gặp | Câu hỏi thường gặp"
   },
   "general": {
-    "description": "Duyệt, tìm kiếm và sắp xếp video của bạn",
-    "title": "Ứng dụng Hub Video"
+    "title": "Ứng dụng Hub Video",
+    "about": "Ứng dụng Video Hub là phần mềm giúp bạn duyệt, tìm kiếm và sắp xếp video của mình"
   },
   "givewell": {
     "q1": "Tập trung vào một chương trình có bằng chứng xuất sắc về hiệu quả và hiệu quả chi phí.",
@@ -318,5 +315,21 @@
     "linkdescription": "Để tải xuống các bản cập nhật trong tương lai: trong email, bạn sẽ thấy đơn đặt hàng 'Tham khảo: #' mà bạn có thể sử dụng để tải xuống phiên bản mới nhất từ trang web này:",
     "thankyoutext": "Cảm ơn bạn đã mua Ứng dụng Hub Video. Bạn sẽ nhận được một email với các liên kết tải xuống trong vòng vài phút.",
     "title": "cám ơn vì đã mua hàng"
+  },
+  "titles": {
+    "about": "Về",
+    "about_description": "Giới thiệu về ứng dụng Video Hub và người tạo ra nó",
+    "blog": "Blog",
+    "blog_description": "Blog cho ứng dụng Video Hub",
+    "contact": "Liên hệ",
+    "contact_description": "Liên hệ với người tạo ứng dụng Video Hub nếu có thắc mắc, bình luận hoặc lỗi",
+    "download": "Tải về",
+    "download_description": "Tải xuống bản demo ứng dụng Video Hub hoặc mua phần mềm",
+    "faq": "Những câu hỏi thường gặp",
+    "faq_description": "Những câu hỏi thường gặp về ứng dụng Video Hub",
+    "guide": "Hướng dẫn sử dụng",
+    "guide_description": "Hướng dẫn sử dụng ứng dụng Video Hub",
+    "share": "Chia sẻ",
+    "share_description": "Chia sẻ ứng dụng Video Hub với người khác trên nền tảng mạng xã hội của bạn"
   }
 }

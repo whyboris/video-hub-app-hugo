@@ -1,29 +1,26 @@
 {
   "about": {
-    "bio": "Boris es un desarrollador web que trabaja en Forbes. La aplicación Video Hub es un proyecto paralelo creado con Electron y Angular. {intl_donated} de cada venta de este software se dona a {intl_amf}, una organización benéfica mejor calificada por {intl_givewell}.",
+    "bio": "Boris creó la aplicación Video Hub con Electron y Angular. Gracias a las compras anteriores, Boris donó más de {intl_donated} a {intl_amf}, una organización benéfica de primera categoría calificada por {intl_givewell}.",
     "creator": "Creador de",
-    "p1": "Las donaciones van a {intl_amf} (AMF) porque es una organización benéfica mejor calificada por {intl_givewell}, un evaluador de organizaciones benéficas independiente. Cada $ 2 entregados a AMF protege a dos personas de la malaria durante 3-4 años.",
-    "p2": "Boris ha estado dando al menos el 10% de sus ingresos a las organizaciones benéficas más rentables (consulte {intl_givewell}) desde 2011. Las ventas de este software proporcionarán donaciones adicionales a su organización benéfica favorita.",
+    "p1": "Las donaciones se destinan a {intl_amf} (AMF) porque es una organización benéfica de primera categoría según {intl_givewell}, una evaluadora independiente de organizaciones benéficas. Cada $2 donados a AMF protegen a dos personas de la malaria durante 3 o 4 años.",
+    "p2": "Boris ha estado donando al menos el 10% de sus ingresos a las organizaciones benéficas más rentables (ver {intl_givewell}) desde 2011. Las ventas de este software se realizaron además de sus donaciones habituales a su organización benéfica favorita.",
     "title": "Acerca de",
     "whydonate": "¿Por qué donar?"
   },
   "blog": {
-    "all_news": "Todas las noticias:",
     "app_purchase": "compra de la aplicación",
-    "btn_donation": "Historial de donaciones",
-    "btn_release": "Historial de versiones",
     "bugfixes": "Corrección de errores",
     "donated": "Total donado",
     "donation_text": "{intl_donated} de cada compra va a {intl_amf}, una organización benéfica mejor calificada por {intl_givewell}.",
-    "donations": "Donaciones:",
     "features": "Caracteristicas",
     "read_more": "Lee mas",
     "receipt": "recibo",
     "released": "publicado",
     "releases": "Lanzamientos:",
     "reviews": "Algunas reseñas",
-    "updated": "actualizado",
-    "version": "Ultima versión"
+    "version": "Ultima versión",
+    "latest": "Los últimos años fueron muy ocupados para mí, pero tengo la intención de reanudar el desarrollo de VHA a principios de 2025.",
+    "since": "desde"
   },
   "carousel": {
     "and_more": "... y más",
@@ -66,14 +63,14 @@
     "heading": "Preguntas? Comentarios ¿Solicitud de función? ¿Informes de errores?",
     "lostlink": "Perdí mi enlace de descarga",
     "message": "Mensaje",
-    "other": "Otro",
     "reason": "Elija el motivo para comunicarse:",
     "request": "Solicitud de función",
-    "title": "Contacto"
+    "title": "Contacto",
+    "misc": "Otro"
   },
   "download": {
     "after": "Despues de la compra",
-    "after_text": "Se le dirigirá a su página de descarga y se le enviará por correo electrónico un enlace a la descarga. Durante al menos un año desde su compra inicial, podrá descargar la última versión del software en cualquier momento. Si pierde el enlace, contácteme.",
+    "after_text": "Se le enviarán por correo electrónico enlaces para descargar VHA. Si no recibe el enlace, utilice el formulario de la página de contacto y le enviaré los enlaces manualmente.",
     "award": "premio",
     "buy": "Compra ahora",
     "buy1": "Videos ilimitados",
@@ -87,7 +84,7 @@
     "free": "Gratis",
     "limited": "Limitado a 50 videos por hub",
     "paying": "Pago",
-    "paying_text": "Todos los pagos son procesados por {intl_stripe} o {intl_paypal} con el proceso de pago manejado por {intl_chec}.",
+    "paying_text": "Todos los pagos son procesados por Stripe",
     "portable": "Portátil",
     "title": "Descargar",
     "unlimited": "Ilimitado",
@@ -134,8 +131,8 @@
     "title": "Preguntas frecuentes | Preguntas más frecuentes"
   },
   "general": {
-    "description": "Navega, busca y organiza tus videos",
-    "title": "Aplicación Video Hub"
+    "title": "Aplicación Video Hub",
+    "about": "La aplicación Video Hub es un software que te ayuda a explorar, buscar y organizar tus videos."
   },
   "givewell": {
     "q1": "Concéntrese en un programa con excelentes pruebas de eficacia y rentabilidad.",
@@ -318,5 +315,21 @@
     "linkdescription": "Para descargar actualizaciones en el futuro: en el correo electrónico debería ver un pedido 'Ref: #' que puede usar para descargar la última versión de este sitio web:",
     "thankyoutext": "Gracias por comprar la aplicación Video Hub. Debería recibir un correo electrónico con los enlaces de descarga en unos minutos.",
     "title": "Gracias por su compra"
+  },
+  "titles": {
+    "about": "Acerca de",
+    "about_description": "Acerca de la aplicación Video Hub y su creador",
+    "blog": "Blog",
+    "blog_description": "Blog de la aplicación Video Hub",
+    "contact": "Contacto",
+    "contact_description": "Comuníquese con el creador de la aplicación Video Hub si tiene preguntas, comentarios o errores.",
+    "download": "Descargar",
+    "download_description": "Descargue la demostración de la aplicación Video Hub o compre el software",
+    "faq": "Preguntas frecuentes",
+    "faq_description": "Preguntas frecuentes sobre la aplicación Video Hub",
+    "guide": "Guía del usuario",
+    "guide_description": "Guía del usuario de la aplicación Video Hub",
+    "share": "Compartir",
+    "share_description": "Comparte la aplicación Video Hub con otras personas en tus plataformas de redes sociales"
   }
 }

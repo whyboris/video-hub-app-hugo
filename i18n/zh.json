@@ -18,7 +18,9 @@
     "released": "已发布",
     "releases": "发布：",
     "reviews": "一些评论",
-    "version": "最新版本"
+    "version": "最新版本",
+    "latest": "去年我非常忙碌，但我打算在 2025 年初恢复 VHA 开发。",
+    "since": "自从"
   },
   "carousel": {
     "and_more": "... 和更多",
@@ -63,7 +65,8 @@
     "message": "信息",
     "reason": "请选择联系原因：",
     "request": "功能要求",
-    "title": "联系"
+    "title": "联系",
+    "misc": "其他"
   },
   "download": {
     "after": "购买后",
@@ -128,7 +131,8 @@
     "title": "常见问题|常问问题"
   },
   "general": {
-    "title": "视频中心应用"
+    "title": "视频中心应用",
+    "about": "Video Hub App 是一款可帮助您浏览、搜索和组织视频的软件"
   },
   "givewell": {
     "q1": "专注于具有出色有效性和成本效益证据的计划。",
@@ -312,5 +316,20 @@
     "thankyoutext": "感谢您购买Video Hub App。您应该在几分钟之内收到一封包含下载链接的电子邮件。",
     "title": "感谢您的购买"
   },
-  "titles": {}
+  "titles": {
+    "about": "关于",
+    "about_description": "关于 Video Hub 应用程序及其创建者",
+    "blog": "博客",
+    "blog_description": "视频中心应用程序博客",
+    "contact": "接触",
+    "contact_description": "如有问题、评论或发现错误，请联系 Video Hub App 的创建者",
+    "download": "下载",
+    "download_description": "下载 Video Hub App 演示版或购买软件",
+    "faq": "常见问题",
+    "faq_description": "视频中心应用程序常见问题解答",
+    "guide": "用户指南",
+    "guide_description": "视频中心应用程序使用指南",
+    "share": "分享",
+    "share_description": "在社交媒体平台上与其他人分享视频中心应用程序"
+  }
 }

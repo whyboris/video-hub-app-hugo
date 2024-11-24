@@ -329,6 +329,7 @@
     "guide": "User Guide",
     "guide_description": "User Guide for Video Hub App",
     "share": "Share",
-    "share_description": "Share Video Hub App with others on your social media platforms"
+    "share_description": "Share Video Hub App with others on your social media platforms",
+    "thankyou": "Thank you"
   }
 }

@@ -14,72 +14,72 @@ disableKinds = ["taxonomy"]
     [markup.goldmark.renderer]
       unsafe = true
 [languages]
-  # [languages.ar]
-  #   contentDir = "content/ar"
-  #   locale = "ar"
-  # [languages.bn]
-  #   contentDir = "content/bn"
-  #   locale = "bn"
-  # [languages.cs]
-  #   contentDir = "content/cs"
-  #   locale = "cs"
-  # [languages.de]
-  #   contentDir = "content/de"
-  #   locale = "de"
+  [languages.ar]
+    contentDir = "content/ar"
+    locale = "ar"
+  [languages.bn]
+    contentDir = "content/bn"
+    locale = "bn"
+  [languages.cs]
+    contentDir = "content/cs"
+    locale = "cs"
+  [languages.de]
+    contentDir = "content/de"
+    locale = "de"
   [languages.en]
     contentDir = "content/en"
     locale = "en-US"
-  # [languages.fr]
-  #   contentDir = "content/fr"
-  #   locale = "fr"
-  # [languages.ha]
-  #   contentDir = "content/ha"
-  #   locale = "ha"
-  # [languages.hi]
-  #   contentDir = "content/hi"
-  #   locale = "hi"
-  # [languages.it]
-  #   contentDir = "content/it"
-  #   locale = "it"
-  # [languages.he]
-  #   contentDir = "content/he"
-  #   locale = "he"
-  # [languages.ja]
-  #   contentDir = "content/ja"
-  #   locale = "ja"
-  # [languages.ko]
-  #   contentDir = "content/ko"
-  #   locale = "ko"
-  # [languages.ms]
-  #   contentDir = "content/ms"
-  #   locale = "ms"
-  # [languages.nl]
-  #   contentDir = "content/nl"
-  #   locale = "nl"
-  # [languages.pl]
-  #   contentDir = "content/pl"
-  #   locale = "pl"
-  # [languages.pt]
-  #   contentDir = "content/pt"
-  #   locale = "pt"
-  # [languages.ru]
-  #   contentDir = "content/ru"
-  #   locale = "ru"
-  # [languages.es]
-  #   contentDir = "content/es"
-  #   locale = "es"
-  # [languages.tr]
-  #   contentDir = "content/tr"
-  #   locale = "tr"
-  # [languages.uk]
-  #   contentDir = "content/uk"
-  #   locale = "uk"
-  # [languages.ur]
-  #   contentDir = "content/ur"
-  #   locale = "ur"
-  # [languages.vi]
-  #   contentDir = "content/vi"
-  #   locale = "vi"
-  # [languages.zh]
-  #   contentDir = "content/zh"
-  #   locale = "zh"
+  [languages.fr]
+    contentDir = "content/fr"
+    locale = "fr"
+  [languages.ha]
+    contentDir = "content/ha"
+    locale = "ha"
+  [languages.hi]
+    contentDir = "content/hi"
+    locale = "hi"
+  [languages.it]
+    contentDir = "content/it"
+    locale = "it"
+  [languages.he]
+    contentDir = "content/he"
+    locale = "he"
+  [languages.ja]
+    contentDir = "content/ja"
+    locale = "ja"
+  [languages.ko]
+    contentDir = "content/ko"
+    locale = "ko"
+  [languages.ms]
+    contentDir = "content/ms"
+    locale = "ms"
+  [languages.nl]
+    contentDir = "content/nl"
+    locale = "nl"
+  [languages.pl]
+    contentDir = "content/pl"
+    locale = "pl"
+  [languages.pt]
+    contentDir = "content/pt"
+    locale = "pt"
+  [languages.ru]
+    contentDir = "content/ru"
+    locale = "ru"
+  [languages.es]
+    contentDir = "content/es"
+    locale = "es"
+  [languages.tr]
+    contentDir = "content/tr"
+    locale = "tr"
+  [languages.uk]
+    contentDir = "content/uk"
+    locale = "uk"
+  [languages.ur]
+    contentDir = "content/ur"
+    locale = "ur"
+  [languages.vi]
+    contentDir = "content/vi"
+    locale = "vi"
+  [languages.zh]
+    contentDir = "content/zh"
+    locale = "zh"

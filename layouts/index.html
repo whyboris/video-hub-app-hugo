@@ -21,6 +21,18 @@
   }
 </script>
 
+<div style="height: 1000px;">
+
+<ul>
+  {{ range .Pages }}
+    <li>
+      <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+    </li>
+  {{ end }}
+</ul>
+
+</div>
+
 <div class="language-select">
   <div class="dropbtn dropbtn-language">
     {{ readFile "static/svg/language.svg" | safeHTML }}

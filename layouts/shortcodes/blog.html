@@ -70,7 +70,7 @@
     {{ i18n "blog.releases" }}
   </h1>
 
-  {{ range .Site.Data.releases }}
+  {{ range hugo.Data.releases }}
 
     <div class="release">
       {{ if not .hideTada }}

@@ -2,7 +2,7 @@
 
     <div class="swiper-wrapper">
 
-        {{ range site.Data.carousel }}
+        {{ range hugo.Data.carousel }}
             {{ partial "carousel-item" . }}
         {{ end }}
     </div>

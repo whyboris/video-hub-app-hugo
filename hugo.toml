@@ -5,7 +5,7 @@ defaultContentLanguageInSubdir = true
 enableRobotsTXT = true
 disableKinds = ["taxonomy"]
 [params]
-  latestVersion = "3.2.0"
+  latestVersion = "3.3.0"
 [services]
   [services.googleAnalytics]
     ID = 'G-WXY3YFNQ7Z'
@@ -14,72 +14,72 @@ disableKinds = ["taxonomy"]
     [markup.goldmark.renderer]
       unsafe = true
 [languages]
-  [languages.ar]
-    contentDir = "content/ar"
-    languageCode = "ar"
-  [languages.bn]
-    contentDir = "content/bn"
-    languageCode = "bn"
-  [languages.cs]
-    contentDir = "content/cs"
-    languageCode = "cs"
-  [languages.de]
-    contentDir = "content/de"
-    languageCode = "de"
+  # [languages.ar]
+  #   contentDir = "content/ar"
+  #   locale = "ar"
+  # [languages.bn]
+  #   contentDir = "content/bn"
+  #   locale = "bn"
+  # [languages.cs]
+  #   contentDir = "content/cs"
+  #   locale = "cs"
+  # [languages.de]
+  #   contentDir = "content/de"
+  #   locale = "de"
   [languages.en]
     contentDir = "content/en"
-    languageCode = "en-US"
-  [languages.fr]
-    contentDir = "content/fr"
-    languageCode = "fr"
-  [languages.ha]
-    contentDir = "content/ha"
-    languageCode = "ha"
-  [languages.hi]
-    contentDir = "content/hi"
-    languageCode = "hi"
-  [languages.it]
-    contentDir = "content/it"
-    languageCode = "it"
-  [languages.he]
-    contentDir = "content/he"
-    languageCode = "he"
-  [languages.ja]
-    contentDir = "content/ja"
-    languageCode = "ja"
-  [languages.ko]
-    contentDir = "content/ko"
-    languageCode = "ko"
-  [languages.ms]
-    contentDir = "content/ms"
-    languageCode = "ms"
-  [languages.nl]
-    contentDir = "content/nl"
-    languageCode = "nl"
-  [languages.pl]
-    contentDir = "content/pl"
-    languageCode = "pl"
-  [languages.pt]
-    contentDir = "content/pt"
-    languageCode = "pt"
-  [languages.ru]
-    contentDir = "content/ru"
-    languageCode = "ru"
-  [languages.es]
-    contentDir = "content/es"
-    languageCode = "es"
-  [languages.tr]
-    contentDir = "content/tr"
-    languageCode = "tr"
-  [languages.uk]
-    contentDir = "content/uk"
-    languageCode = "uk"
-  [languages.ur]
-    contentDir = "content/ur"
-    languageCode = "ur"
-  [languages.vi]
-    contentDir = "content/vi"
-    languageCode = "vi"
-  [languages.zh]
-    contentDir = "content/zh"
-    languageCode = "zh"
+    locale = "en-US"
+  # [languages.fr]
+  #   contentDir = "content/fr"
+  #   locale = "fr"
+  # [languages.ha]
+  #   contentDir = "content/ha"
+  #   locale = "ha"
+  # [languages.hi]
+  #   contentDir = "content/hi"
+  #   locale = "hi"
+  # [languages.it]
+  #   contentDir = "content/it"
+  #   locale = "it"
+  # [languages.he]
+  #   contentDir = "content/he"
+  #   locale = "he"
+  # [languages.ja]
+  #   contentDir = "content/ja"
+  #   locale = "ja"
+  # [languages.ko]
+  #   contentDir = "content/ko"
+  #   locale = "ko"
+  # [languages.ms]
+  #   contentDir = "content/ms"
+  #   locale = "ms"
+  # [languages.nl]
+  #   contentDir = "content/nl"
+  #   locale = "nl"
+  # [languages.pl]
+  #   contentDir = "content/pl"
+  #   locale = "pl"
+  # [languages.pt]
+  #   contentDir = "content/pt"
+  #   locale = "pt"
+  # [languages.ru]
+  #   contentDir = "content/ru"
+  #   locale = "ru"
+  # [languages.es]
+  #   contentDir = "content/es"
+  #   locale = "es"
+  # [languages.tr]
+  #   contentDir = "content/tr"
+  #   locale = "tr"
+  # [languages.uk]
+  #   contentDir = "content/uk"
+  #   locale = "uk"
+  # [languages.ur]
+  #   contentDir = "content/ur"
+  #   locale = "ur"
+  # [languages.vi]
+  #   contentDir = "content/vi"
+  #   locale = "vi"
+  # [languages.zh]
+  #   contentDir = "content/zh"
+  #   locale = "zh"

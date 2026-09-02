@@ -92,6 +92,7 @@
     "portable": "Portable",
     "title": "Download",
     "unlimited": "Unlimited",
+    "usesffmpeg": "This software uses",
     "whypay": "Why pay what you want?",
     "whypay_text": "I want more people to be able to use the software, so the price is lower than it should be, but I also want to make the world a better place, so {intl_donated} from every purchase goes to the {intl_amf}, a top-rated charity by {intl_givewell}. Please consider paying as much as you think appropriate."
   },

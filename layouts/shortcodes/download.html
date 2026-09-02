@@ -1,6 +1,6 @@
 <div class="price-container">
 
-  {{ with .Site.Data.downloads }}
+  {{ with hugo.Data.downloads }}
     {{ partial "demo" .windows }}
     {{ partial "demo" .mac }}
     {{ partial "demo" .linux }}
@@ -14,17 +14,18 @@
       {{ i18n "download.every" }} OS
     </h2>
     <div class="price">
-      <sup class="currency">$</sup>5<sup class="currency">.00</sup>
+      <sup class="currency">$</sup>10<sup class="currency">.00</sup>
     </div>
     <hr />
     <ul class="pricing-info">
+      <li> {{ i18n "download.buy0" }}</li>
       <li> {{ i18n "download.buy1" }}</li>
       <li> {{ i18n "download.buy2" }}</li>
       <li> {{ i18n "download.buy3" }}</li>
       <li> {{ i18n "download.buy4" }}</li>
     </ul>
 
-    <a href="https://buy.stripe.com/5kA15h7s5eQM6085kk" data-chec-product-id="video-hub-app" class="btn btn-primary">
+    <a href="https://buy.stripe.com/aFa9AS9bW3Wg5CDbUk4F201" data-chec-product-id="video-hub-app" class="btn btn-primary">
       {{ i18n "download.buy" }}
     </a>
 
@@ -50,15 +51,17 @@
   <h2>{{ i18n "download.after" }}</h2>
 
   <p>{{ i18n "download.after_text" }}</p>
+
 {{/*
   <h2>{{ i18n "download.whypay" }}</h2>
 
   <p>{{ i18n "download.whypay_text" }}</p>
 
   <a href="/about">{{ i18n "blog.read_more" }}</a>
-  */}}
+*/}}
+
   <h2>{{ i18n "share.thankyou" }}</h2>
 
-  <p>This software uses <a href="https://ffmpeg.org">FFmpeg</a></p>
+  <p>{{ i18n "download.usesffmpeg" }} <a href="https://ffmpeg.org">FFmpeg</a></p>
 
 </section>

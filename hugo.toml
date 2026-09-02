@@ -5,7 +5,7 @@ defaultContentLanguageInSubdir = true
 enableRobotsTXT = true
 disableKinds = ["taxonomy"]
 [params]
-  latestVersion = "3.2.0"
+  latestVersion = "3.3.0"
 [services]
   [services.googleAnalytics]
     ID = 'G-WXY3YFNQ7Z'
@@ -16,70 +16,70 @@ disableKinds = ["taxonomy"]
 [languages]
   [languages.ar]
     contentDir = "content/ar"
-    languageCode = "ar"
+    locale = "ar"
   [languages.bn]
     contentDir = "content/bn"
-    languageCode = "bn"
+    locale = "bn"
   [languages.cs]
     contentDir = "content/cs"
-    languageCode = "cs"
+    locale = "cs"
   [languages.de]
     contentDir = "content/de"
-    languageCode = "de"
+    locale = "de"
   [languages.en]
     contentDir = "content/en"
-    languageCode = "en-US"
+    locale = "en-US"
   [languages.fr]
     contentDir = "content/fr"
-    languageCode = "fr"
+    locale = "fr"
   [languages.ha]
     contentDir = "content/ha"
-    languageCode = "ha"
+    locale = "ha"
   [languages.hi]
     contentDir = "content/hi"
-    languageCode = "hi"
+    locale = "hi"
   [languages.it]
     contentDir = "content/it"
-    languageCode = "it"
+    locale = "it"
   [languages.he]
     contentDir = "content/he"
-    languageCode = "he"
+    locale = "he"
   [languages.ja]
     contentDir = "content/ja"
-    languageCode = "ja"
+    locale = "ja"
   [languages.ko]
     contentDir = "content/ko"
-    languageCode = "ko"
+    locale = "ko"
   [languages.ms]
     contentDir = "content/ms"
-    languageCode = "ms"
+    locale = "ms"
   [languages.nl]
     contentDir = "content/nl"
-    languageCode = "nl"
+    locale = "nl"
   [languages.pl]
     contentDir = "content/pl"
-    languageCode = "pl"
+    locale = "pl"
   [languages.pt]
     contentDir = "content/pt"
-    languageCode = "pt"
+    locale = "pt"
   [languages.ru]
     contentDir = "content/ru"
-    languageCode = "ru"
+    locale = "ru"
   [languages.es]
     contentDir = "content/es"
-    languageCode = "es"
+    locale = "es"
   [languages.tr]
     contentDir = "content/tr"
-    languageCode = "tr"
+    locale = "tr"
   [languages.uk]
     contentDir = "content/uk"
-    languageCode = "uk"
+    locale = "uk"
   [languages.ur]
     contentDir = "content/ur"
-    languageCode = "ur"
+    locale = "ur"
   [languages.vi]
     contentDir = "content/vi"
-    languageCode = "vi"
+    locale = "vi"
   [languages.zh]
     contentDir = "content/zh"
-    languageCode = "zh"
+    locale = "zh"

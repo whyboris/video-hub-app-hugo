@@ -1,5 +1,37 @@
 [
   {
+    "date": "Sep 3, 2026",
+    "notes": "If you purchased Video Hub App before you can get your download links by email:",
+    "linkInternal": {
+      "link": "https://my.videohubapp.com",
+      "text": "my.videohubapp.com"
+    },
+    "hideTada": true
+  },
+  {
+    "date": "Sep 1, 2026",
+    "features": [
+      "build a playlist by clicking on icon in any video",
+      "choose from 9 colors for manual tags",
+      "tag tray improvements",
+      "keyboard sortcuts to set default thumbnail, open folder, and play random video",
+      "favorites-only-view button",
+      "show / hide metadata",
+      "clear all filters button",
+      "improved Japanese translation",
+      "many other small improvements"
+    ],
+    "bugfixes": [
+      "filter sliders fixed: no longer stuck or janky",
+      "file size matches how your OS computes it",
+      "recently played videos bug fixed",
+      "scroll to top when switching settings tabs",
+      "some more minor bugfixes"
+    ],
+    "version": "3.3.0",
+    "notes": "Eight and a half years since the first release 🎉"
+  },
+  {
     "date": "Feb 20, 2023",
     "features": [
       "click on heart to mark video as favorite",
@@ -16,7 +48,7 @@
       "some more minor bugfixes"
     ],
     "version": "3.2.0",
-    "notes": "Fifth anniversary release 🎉 If you purchased the app before, visit my.videohubapp.com"
+    "notes": "Fifth anniversary release 🎉"
   },
   {
     "date": "Sep 12, 2021",
@@ -40,8 +72,7 @@
       "Mac copy/paste works",
       "some more minor bugfixes"
     ],
-    "version": "3.1.0",
-    "notes": "If you purchased the app before, visit my.videohubapp.com"
+    "version": "3.1.0"
   },
   {
     "date": "Nov 30, 2020",
@@ -57,7 +88,7 @@
       "Too many to list"
     ],
     "version": "3.0.0",
-    "notes": "If you purchased the app before, visit my.videohubapp.com"
+    "notes": "Portal launched to let customers get updated versions: my.videohubapp.com"
   },
   {
     "date": "May 15, 2020",

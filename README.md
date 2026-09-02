@@ -1,6 +1,6 @@
 # Video Hub App
 
-[Video Hub App](https://videohubapp.com/) is the fastest way to browse, search, and organize videos on your computer. Think of it like YouTube for videos on your computer: browse, search, and preview. Works on Windows, Mac, and Linux!
+[Video Hub App](https://videohubapp.com/) is the fastest way to browse, search, and organize videos on your computer. Think of it like YouTube for videos on your PC. Works on **Windows**, **Mac**, and **Linux**!
 
 ![video-hub-app](https://github.com/user-attachments/assets/9f13fc21-63ab-46ae-8409-ba2d9b5f289a)
 
@@ -8,7 +8,7 @@
 
 This is a repository just to keep a safe copy of the current public website.
 
-It uses [Hugo](https://gohugo.io/) for static HTML generation. Current _Hugo_ version: `165`
+It uses [Hugo](https://gohugo.io/) (version `165`) for static HTML generation.
 
 Previously this website was built with [Gatsby](https://github.com/whyboris/video-hub-app-gatsby-website)
 
